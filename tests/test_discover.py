@@ -105,3 +105,11 @@ def test_scrape_sources_are_never_discovered():
     assert not needs_discovery(
         {"name": "沖縄防衛局", "status": "todo", "method": "scrape"}
     )
+
+
+def test_common_paths_include_spec_four():
+    """§1-4 手順3 に挙がっている4パスは必ず試す。"""
+    from src.discover import COMMON_PATHS
+    for p in ("/news.rss", "/rss/10/list1.xml", "/shinchaku.xml",
+              "/cgi-bin/feed.php?siteNew=1"):
+        assert p in COMMON_PATHS

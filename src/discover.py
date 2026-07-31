@@ -24,10 +24,23 @@ log = logging.getLogger(__name__)
 FEED_TYPES = ("application/rss+xml", "application/atom+xml", "application/rdf+xml")
 ANCHOR_HINTS = ("rss", "feed", "新着")
 COMMON_PATHS = (
+    # §1-4 手順3 に挙がっている4つ
     "/news.rss",
     "/rss/10/list1.xml",
     "/shinchaku.xml",
     "/cgi-bin/feed.php?siteNew=1",
+    # 沖縄の自治体サイトで実際に使われていた追加パス。
+    # 嘉手納町は /atom.xml、八重瀬町は /docs/index.rss でしか配信していない
+    "/atom.xml",
+    "/rss.xml",
+    "/index.rdf",
+    "/index.rss",
+    "/docs/index.rss",
+    "/articles/index.rss",
+    "/category/news/index.rss",
+    "/rss_news.xml",
+    "/shinchaku/shinchaku.xml",
+    "/rss/10/list3.xml",
 )
 # 日次実行でこの回数連続して取得に失敗したら、status: ok でも再探索する
 FAIL_THRESHOLD = 3

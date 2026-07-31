@@ -125,9 +125,10 @@ sources:
   fail_streak: 0
 - name: 嘉手納町
   top: https://www.town.kadena.okinawa.jp/
-  feed: null
+  feed: https://www.town.kadena.okinawa.jp/atom.xml
   method: feed
-  status: no_feed
+  status: ok
+  fail_streak: 0
 - name: 北谷町
   top: https://www.chatan.jp/
   feed: https://www.chatan.jp/rss_news.xml
