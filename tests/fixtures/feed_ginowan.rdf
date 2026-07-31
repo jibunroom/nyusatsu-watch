@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<channel rdf:about="https://www.city.ginowan.lg.jp/index.html">
+<title>宜野湾市</title>
+<link>https://www.city.ginowan.lg.jp/index.html</link>
+<description>宜野湾市</description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/kodomo/3/sukoyakaoyako/6/20597.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/fukushi/5/additional_benefit_20439.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/1/11081.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/1/churayume_lib/11087.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/kodomo/3/sukoyakaoyako/9/18306.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/suido/4/18693.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/somu/7/nyuusatu/kekka/20723.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/somu/7/3/1/houkatu/20277.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/3/1/3/bunkaeventlesson/20681.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/6/18327.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/kodomo/1/jidocenter/ooyama_jc/6457.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/somu/6/1/1/1/20710.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/kodomo/2/kaikeinenndosasiyoubosyuu/19719.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/kodomo/3/3/2_1/6511.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/kodomo/3/jidoukateikakari/hitorioyasien/20581.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/kyoiku/2/3/1/1/1/20698.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/kodomo/3/3/2_1/11232.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/kodomo/3/3/2_1/18410.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/3/1/3/bunkaeventlesson/20685.html"/>
+<rdf:li resource="https://www.city.ginowan.lg.jp/soshiki/somu/5/1/2/1/saiyou_r8/20164.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/kodomo/3/sukoyakaoyako/6/20597.html">
+<title>契約施設外での産後ケア利用時の償還払いについて</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/kodomo/3/sukoyakaoyako/6/20597.html</link>
+<description>産後ケアの償還払いの対応方法</description>
+<dc:date>2026-07-31T18:05:03+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/fukushi/5/additional_benefit_20439.html">
+<title>最高裁判決を踏まえた生活保護費等の追加給付について</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/fukushi/5/additional_benefit_20439.html</link>
+<description>平成25年から国が実施した生活扶助基準の引下げ手続きが、令和7年6月の最高裁判決において、違法と判断されました。この判決を受け、国は該当する期間に生活保護等を受けていた方へ保護費を追加給付することを決定しました。</description>
+<dc:date>2026-07-31T16:00:00+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/1/11081.html">
+<title>図書館カレンダー【本館】</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/1/11081.html</link>
+<description></description>
+<dc:date>2026-07-31T15:25:00+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/1/churayume_lib/11087.html">
+<title>移動図書館『ちゅらゆめ号』巡回カレンダー</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/1/churayume_lib/11087.html</link>
+<description></description>
+<dc:date>2026-07-31T15:20:00+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/kodomo/3/sukoyakaoyako/9/18306.html">
+<title>すこやか親子係では保健師を募集しています。（会計年度任用職員）</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/kodomo/3/sukoyakaoyako/9/18306.html</link>
+<description></description>
+<dc:date>2026-07-31T10:00:00+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/suido/4/18693.html">
+<title>上下水道料金のWeb口座振替受付サービスについて</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/suido/4/18693.html</link>
+<description></description>
+<dc:date>2026-07-31T10:00:00+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/somu/7/nyuusatu/kekka/20723.html">
+<title>宜野湾市公用車管理システム導入業務に係る公募型プロポーザル選定結果について</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/somu/7/nyuusatu/kekka/20723.html</link>
+<description></description>
+<dc:date>2026-07-31T09:00:00+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/somu/7/3/1/houkatu/20277.html">
+<title>【令和8年度】公共施設等の包括管理導入に向けたサウンディング調査</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/somu/7/3/1/houkatu/20277.html</link>
+<description></description>
+<dc:date>2026-07-31T08:30:00+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/3/1/3/bunkaeventlesson/20681.html">
+<title>しまくとぅばで語る 読み聞かせ オーケストラ公演</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/3/1/3/bunkaeventlesson/20681.html</link>
+<description></description>
+<dc:date>2026-07-30T17:00:00+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/6/18327.html">
+<title>令和8年度　宜野湾歴史の道文化財教室</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/6/18327.html</link>
+<description></description>
+<dc:date>2026-07-30T16:42:52+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/kodomo/1/jidocenter/ooyama_jc/6457.html">
+<title>大山児童センターだより</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/kodomo/1/jidocenter/ooyama_jc/6457.html</link>
+<description></description>
+<dc:date>2026-07-30T13:00:00+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/somu/6/1/1/1/20710.html">
+<title>原動機付自転車又は小型特殊自動車の試乗用標識の交付について</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/somu/6/1/1/1/20710.html</link>
+<description></description>
+<dc:date>2026-07-30T09:32:22+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/kodomo/2/kaikeinenndosasiyoubosyuu/19719.html">
+<title>令和8年度　宜野湾保育所　保育士募集します</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/kodomo/2/kaikeinenndosasiyoubosyuu/19719.html</link>
+<description></description>
+<dc:date>2026-07-30T08:15:39+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/kodomo/3/3/2_1/6511.html">
+<title>児童扶養手当現況届について</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/kodomo/3/3/2_1/6511.html</link>
+<description></description>
+<dc:date>2026-07-29T19:53:40+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/kodomo/3/jidoukateikakari/hitorioyasien/20581.html">
+<title>女性の就職総合支援事業</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/kodomo/3/jidoukateikakari/hitorioyasien/20581.html</link>
+<description></description>
+<dc:date>2026-07-29T19:53:18+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/kyoiku/2/3/1/1/1/20698.html">
+<title>令和9年度就学援助の申請受付時期変更のお知らせ</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/kyoiku/2/3/1/1/1/20698.html</link>
+<description></description>
+<dc:date>2026-07-29T13:00:00+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/kodomo/3/3/2_1/11232.html">
+<title>児童扶養手当一部支給停止適用除外事由届出書について</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/kodomo/3/3/2_1/11232.html</link>
+<description></description>
+<dc:date>2026-07-29T11:47:39+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/kodomo/3/3/2_1/18410.html">
+<title>特別児童扶養手当所得状況届について</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/kodomo/3/3/2_1/18410.html</link>
+<description></description>
+<dc:date>2026-07-29T11:47:16+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/3/1/3/bunkaeventlesson/20685.html">
+<title>【参加者募集中】初心者向け講座　じのーん軽便しまくとぅば列車</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/3/1/3/bunkaeventlesson/20685.html</link>
+<description>沖縄軽便鉄道と地域の記憶をめぐる　しまくとぅば没入型講座＆ワークショップ</description>
+<dc:date>2026-07-29T11:12:55+09:00</dc:date>
+</item>
+<item rdf:about="https://www.city.ginowan.lg.jp/soshiki/somu/5/1/2/1/saiyou_r8/20164.html">
+<title>【申込者募集】令和8年度第2回宜野湾市職員採用候補者試験（令和9年4月1日採用分）</title>
+<link>https://www.city.ginowan.lg.jp/soshiki/somu/5/1/2/1/saiyou_r8/20164.html</link>
+<description></description>
+<dc:date>2026-07-29T10:00:00+09:00</dc:date>
+</item>
+</rdf:RDF>

@@ -1,0 +1,39 @@
+# 定数（§3・§4・§5・§9）
+# 数値の根拠は SPEC.md の該当表を参照。
+
+http:
+  # §9 巡回マナー
+  # {mail_to} は実行時に MAIL_TO の値で置換される
+  user_agent: "nyusatsu-watch/1.0 (personal bid monitor; contact: {mail_to})"
+  timeout_sec: 15
+  retries: 1              # リトライ1回（=最大2回試行）
+  host_interval_sec: 2.0  # 同一ホストへのアクセス間隔
+  respect_robots: true
+
+detail:
+  max_chars: 3000         # §3 Gemini に渡す本文の上限
+  max_bytes: 2000000      # 巨大ページの防衛（本文取得を諦める閾値）
+
+gemini:
+  # モデルは .env の GEMINI_MODEL が優先。ここは fallback（2.0系は停止済み）
+  default_model: "gemini-flash-latest"
+  batch_size: 10          # 1リクエスト最大10件
+  min_interval_sec: 4.1   # 15 RPM
+  max_requests_per_run: 30    # 暴走時の安全弁（=最大300件）
+  max_requests_per_day: 60    # 朝夕合算・data/quota.json
+  backoff_sec: [8, 16, 32]    # 429/503 の指数バックオフ
+  max_retries: 3
+  timeout_sec: 120
+
+rank:
+  # §5-1
+  amount_limit_jpy: 10000000   # 1000万円超は除外
+  deadline_safe_days: 7        # 締切まで7日以上で S
+  staff_warn_threshold: 5      # staff_required >= 5 で件名に ⚠️
+
+state:
+  seen_max_per_source: 10000   # §7 機関ごとにローテーション
+
+mail:
+  smtp_host: "mail65.onamae.ne.jp"
+  smtp_port: 465               # SSL

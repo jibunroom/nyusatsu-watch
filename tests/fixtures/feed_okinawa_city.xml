@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF 
+	xmlns="http://purl.org/rss/1.0/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xml:lang="ja">
+	<channel rdf:about="https://www.city.okinawa.okinawa.jp/index.html">
+		<title>沖縄市役所 トップページ</title>
+		<link>https://www.city.okinawa.okinawa.jp/index.html</link>
+		<description></description>
+		<items>
+			<rdf:Seq>
+
+				<rdf:li rdf:resource="https://www.city.okinawa.okinawa.jp/k037/contents/p00034.html"/>
+
+				<rdf:li rdf:resource="https://www.city.okinawa.okinawa.jp/k060/contents/p00006.html"/>
+
+				<rdf:li rdf:resource="https://www.city.okinawa.okinawa.jp/k062-001/kosodate/shakaikyouiku/shisetsu/443/8014.html"/>
+
+				<rdf:li rdf:resource="https://www.city.okinawa.okinawa.jp/k010-004/contents/p00027.html"/>
+
+				<rdf:li rdf:resource="https://www.city.okinawa.okinawa.jp/k010-004/contents/rireki/ideason/p00062.html"/>
+
+				<rdf:li rdf:resource="https://www.city.okinawa.okinawa.jp/k047/contents/p00015.html"/>
+
+				<rdf:li rdf:resource="https://www.city.okinawa.okinawa.jp/k016/kurashi/todokedeshoumei/mynumbercard/7928.html"/>
+
+				<rdf:li rdf:resource="https://www.city.okinawa.okinawa.jp/k028/kosodate/jidoukan/453/index.html"/>
+
+				<rdf:li rdf:resource="https://www.city.okinawa.okinawa.jp/k042/contents/p00032.html"/>
+
+				<rdf:li rdf:resource="https://www.city.okinawa.okinawa.jp/k034/sportsbunka/bunkarekishi/bunkageijutsu/p00010.html"/>
+
+			</rdf:Seq>
+		</items>
+	</channel>
+
+	<item rdf:about="https://www.city.okinawa.okinawa.jp/k037/contents/p00034.html">
+		<title>八重島公園「ドッグラン」</title>
+		<link>https://www.city.okinawa.okinawa.jp/k037/contents/p00034.html</link>
+		<description>園内を散策しながら植物の特性やエピソードを解説します。</description>
+		<dc:creator>建設部　公園みどり課　　</dc:creator>
+		<dc:subject>その他</dc:subject>
+		<dc:publisher>okinawa city</dc:publisher>
+		<dc:contributor>建設部　公園みどり課　　 </dc:contributor>
+		<dc:date>2026-08-01T00:15:00+09:00</dc:date>
+	</item>
+
+	<item rdf:about="https://www.city.okinawa.okinawa.jp/k060/contents/p00006.html">
+		<title>施設課 会計年度任用職員募集（技術職）</title>
+		<link>https://www.city.okinawa.okinawa.jp/k060/contents/p00006.html</link>
+		<description></description>
+		<dc:creator>教育部　施設課　　</dc:creator>
+		<dc:subject>市政情報</dc:subject>
+		<dc:publisher>okinawa city</dc:publisher>
+		<dc:contributor>教育部　施設課　　 </dc:contributor>
+		<dc:date>2026-07-31T12:00:00+09:00</dc:date>
+	</item>
+
+	<item rdf:about="https://www.city.okinawa.okinawa.jp/k062-001/kosodate/shakaikyouiku/shisetsu/443/8014.html">
+		<title>中央公民館講座　受講生募集のお知らせ</title>
+		<link>https://www.city.okinawa.okinawa.jp/k062-001/kosodate/shakaikyouiku/shisetsu/443/8014.html</link>
+		<description></description>
+		<dc:creator>教育部　生涯学習課　　</dc:creator>
+		<dc:subject>子育て・教育</dc:subject>
+		<dc:publisher>okinawa city</dc:publisher>
+		<dc:contributor>教育部　生涯学習課　　 </dc:contributor>
+		<dc:date>2026-07-31T00:00:00+09:00</dc:date>
+	</item>
+
+	<item rdf:about="https://www.city.okinawa.okinawa.jp/k010-004/contents/p00027.html">
+		<title>電子郵便・電子通知の本格運用を開始しました。</title>
+		<link>https://www.city.okinawa.okinawa.jp/k010-004/contents/p00027.html</link>
+		<description></description>
+		<dc:creator>企画部　DX戦略室　DX推進課　DX推進担当　　</dc:creator>
+		<dc:subject>暮らし・手続き</dc:subject>
+		<dc:publisher>okinawa city</dc:publisher>
+		<dc:contributor>企画部　DX戦略室　DX推進課　DX推進担当　　 </dc:contributor>
+		<dc:date>2026-07-31T00:00:00+09:00</dc:date>
+	</item>
+
+	<item rdf:about="https://www.city.okinawa.okinawa.jp/k010-004/contents/rireki/ideason/p00062.html">
+		<title>【庁内研修】デジタル郵便システム「SmartPOST」の職員向け操作研修を実施しました。</title>
+		<link>https://www.city.okinawa.okinawa.jp/k010-004/contents/rireki/ideason/p00062.html</link>
+		<description></description>
+		<dc:creator>企画部　DX戦略室　DX推進課　DX推進担当　　</dc:creator>
+		<dc:subject>市政情報</dc:subject>
+		<dc:publisher>okinawa city</dc:publisher>
+		<dc:contributor>企画部　DX戦略室　DX推進課　DX推進担当　　 </dc:contributor>
+		<dc:date>2026-07-31T00:00:00+09:00</dc:date>
+	</item>
+
+	<item rdf:about="https://www.city.okinawa.okinawa.jp/k047/contents/p00015.html">
+		<title>沖縄県知事選挙及び第14回沖縄市議会議員選挙</title>
+		<link>https://www.city.okinawa.okinawa.jp/k047/contents/p00015.html</link>
+		<description></description>
+		<dc:creator>選挙管理委員会事務局　　</dc:creator>
+		<dc:subject>市政情報</dc:subject>
+		<dc:publisher>okinawa city</dc:publisher>
+		<dc:contributor>選挙管理委員会事務局　　 </dc:contributor>
+		<dc:date>2026-07-31T00:00:00+09:00</dc:date>
+	</item>
+
+	<item rdf:about="https://www.city.okinawa.okinawa.jp/k016/kurashi/todokedeshoumei/mynumbercard/7928.html">
+		<title>マイナンバーカード交付等休日および夜間開庁のご案内</title>
+		<link>https://www.city.okinawa.okinawa.jp/k016/kurashi/todokedeshoumei/mynumbercard/7928.html</link>
+		<description></description>
+		<dc:creator>市民部　市民課　　</dc:creator>
+		<dc:subject>暮らし・手続き</dc:subject>
+		<dc:publisher>okinawa city</dc:publisher>
+		<dc:contributor>市民部　市民課　　 </dc:contributor>
+		<dc:date>2026-07-30T00:00:00+09:00</dc:date>
+	</item>
+
+	<item rdf:about="https://www.city.okinawa.okinawa.jp/k028/kosodate/jidoukan/453/index.html">
+		<title>沖縄市福祉文化プラザ児童センター</title>
+		<link>https://www.city.okinawa.okinawa.jp/k028/kosodate/jidoukan/453/index.html</link>
+		<description></description>
+		<dc:creator>こどものまち推進部　こども家庭課　　</dc:creator>
+		<dc:subject>子育て・教育</dc:subject>
+		<dc:publisher>okinawa city</dc:publisher>
+		<dc:contributor>こどものまち推進部　こども家庭課　　 </dc:contributor>
+		<dc:date>2026-07-30T00:00:00+09:00</dc:date>
+	</item>
+
+	<item rdf:about="https://www.city.okinawa.okinawa.jp/k042/contents/p00032.html">
+		<title>令和8年度沖縄市空家等除却費補助金の事前調査抽選結果について</title>
+		<link>https://www.city.okinawa.okinawa.jp/k042/contents/p00032.html</link>
+		<description>令和8年度沖縄市空家等除却費補助金の事前調査抽選結果の公表</description>
+		<dc:creator>建設部　住まい建築課　　</dc:creator>
+		<dc:subject>暮らし・手続き</dc:subject>
+		<dc:publisher>okinawa city</dc:publisher>
+		<dc:contributor>建設部　住まい建築課　　 </dc:contributor>
+		<dc:date>2026-07-30T00:00:00+09:00</dc:date>
+	</item>
+
+	<item rdf:about="https://www.city.okinawa.okinawa.jp/k034/sportsbunka/bunkarekishi/bunkageijutsu/p00010.html">
+		<title>令和8年度 音楽によるまちづくり推進事業補助金公募 ２次募集について（期間延長）</title>
+		<link>https://www.city.okinawa.okinawa.jp/k034/sportsbunka/bunkarekishi/bunkageijutsu/p00010.html</link>
+		<description></description>
+		<dc:creator>経済文化部　文化芸能課　　</dc:creator>
+		<dc:subject>スポーツ・文化</dc:subject>
+		<dc:publisher>okinawa city</dc:publisher>
+		<dc:contributor>経済文化部　文化芸能課　　 </dc:contributor>
+		<dc:date>2026-07-30T00:00:00+09:00</dc:date>
+	</item>
+
+</rdf:RDF>

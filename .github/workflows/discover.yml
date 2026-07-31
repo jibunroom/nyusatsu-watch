@@ -1,0 +1,42 @@
+name: discover
+
+on:
+  schedule:
+    - cron: '0 21 * * 0'    # JST 月曜 06:00（UTC 日曜 21:00）
+  workflow_dispatch:
+
+concurrency:
+  group: discover
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # config/sources.yml を更新してコミット（§1-4）
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: discover feeds
+        env:
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python -m src.discover
+
+      - name: commit sources.yml
+        run: |
+          git config user.name  "nyusatsu-watch[bot]"
+          git config user.email "actions@github.com"
+          git add config/sources.yml
+          git diff --cached --quiet || {
+            git commit -m "chore: フィード探索結果を反映"
+            git push
+          }
