@@ -1,10 +1,13 @@
 name: watch
 
+# 分は「30」ちょうどを避けている。GitHub の schedule は 0分・30分に
+# 世界中の予約が集中し、混雑で遅延・欠落しやすいため（初日の JST 17:30 分が
+# 実際に欠落した）。
 on:
   schedule:
-    - cron: '30 22 * * *'   # JST 07:30
-    - cron: '30 8 * * *'    # JST 17:30
-  workflow_dispatch:
+    - cron: '37 22 * * *'   # JST 07:37
+    - cron: '37 8 * * *'    # JST 17:37
+  workflow_dispatch:         # 手動実行
 
 concurrency:
   group: watch

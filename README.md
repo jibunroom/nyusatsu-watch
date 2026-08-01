@@ -91,13 +91,17 @@ MAIL_TO=your@example.com .venv/bin/python -m src.main --dry-run --no-ai
 
 | ファイル | 実行 | 内容 |
 |---|---|---|
-| `.github/workflows/watch.yml` | JST 07:30 / 17:30 + 手動 | 本体 |
+| `.github/workflows/watch.yml` | JST 07:37 / 17:37 + 手動 | 本体 |
 | `.github/workflows/discover.yml` | 毎週月曜 JST 06:00 + 手動 | フィード探索 |
 | `.github/workflows/ci.yml` | push / PR | pytest |
 
 `watch.yml` は毎回 `data/` をコミットする。これが
 「60日間コミットが無いとスケジュールが無効化される」GitHub の仕様への
 対策を兼ねている。
+
+実行時刻の分が 37 なのは意図的。GitHub の schedule は 0分・30分に予約が
+集中し、混雑で遅延・欠落しやすい（2026-08-01 の初日 JST 17:30 分が実際に
+欠落した）ため、混雑しない分にずらしてある。
 
 ## 無料枠の守り方（§4-1）
 
