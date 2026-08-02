@@ -208,10 +208,30 @@ def run(args) -> int:
     state.add_items([r.to_record() for r in ranked])
 
     # --- notify（§5-2）。0件でも必ず送る ---
+    # 前回メールを送れなかった S/A を今回の通知に混ぜ直す。
+    # 「判定した」ではなく「実際に届いた」までを完了とみなす。
+    carried_over = [
+        rank_mod.Ranked.from_record(rec, today) for rec in state.undelivered
+    ]
+    carried_over = [r for r in carried_over if not r.is_expired(today)]
+    if carried_over:
+        log.info("前回未送信の %d件を今回の通知に載せる", len(carried_over))
+
+    to_notify = carried_over + ranked
     summary.quota_used = state.quota_count
-    subject = notify.build_subject(ranked, summary)
-    body = notify.build_body(ranked, summary)
-    notify.send_mail(subject, body, smtp, dry_run=args.dry_run)
+    subject = notify.build_subject(to_notify, summary)
+    body = notify.build_body(to_notify, summary)
+    sent = notify.send_mail(subject, body, smtp, dry_run=args.dry_run)
+
+    if sent:
+        state.set_undelivered([])
+    else:
+        # 送信失敗。S/A を保存し、次回の実行で必ず載せ直す
+        keep = [
+            r for r in to_notify if r.rank in (rank_mod.S, rank_mod.A)
+        ]
+        state.set_undelivered([r.to_record() for r in keep])
+        log.error("メール送信に失敗。%d件を次回に持ち越す", len(keep))
 
     maybe_monthly_summary(state, smtp, today, args.dry_run)
 

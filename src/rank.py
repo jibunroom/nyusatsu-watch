@@ -56,6 +56,27 @@ class Ranked:
         )
         return d
 
+    @classmethod
+    def from_record(cls, rec: dict, today: date) -> "Ranked":
+        """to_record() の逆。未送信分をメールに載せ直すために使う。
+
+        締切までの残日数だけは今日基準で計算し直す。
+        """
+        verdict = rec.get("verdict") or {}
+        return cls(
+            item=FeedItem.from_dict(rec),
+            rank=rec.get("rank", A),
+            verdict=verdict,
+            days_left=days_until(parse_deadline(verdict.get("deadline")), today),
+            warn_staff=bool(rec.get("warn_staff")),
+            judge_failed=bool(rec.get("judge_failed")),
+            reasons=["前回未送信"],
+        )
+
+    def is_expired(self, today: date) -> bool:
+        """締切を過ぎているか。締切不明は期限切れ扱いにしない。"""
+        return self.days_left is not None and self.days_left < 0
+
 
 def parse_deadline(value) -> date | None:
     if not value or not isinstance(value, str):

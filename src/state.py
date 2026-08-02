@@ -66,6 +66,8 @@ class State:
             self.dir / "quota.json", {"date": today_jst(), "count": 0}
         )
         self.items: list[dict] = _read_json(self.dir / "items.json", [])
+        # メール送信に失敗した S/A。次回の通知に載せ直す（送信成功まで消さない）
+        self.undelivered: list[dict] = _read_json(self.dir / "undelivered.json", [])
         self._seen_index = {k: set(v) for k, v in self.seen.items()}
         self._result_urls = {r.get("url") for r in self.results}
         self._roll_quota()
@@ -131,6 +133,11 @@ class State:
     def add_items(self, items: list[dict]) -> None:
         self.items.extend(items)
 
+    # --- undelivered（送信できなかった通知） ---
+
+    def set_undelivered(self, records: list[dict]) -> None:
+        self.undelivered = records
+
     # --- 永続化 ---
 
     def save(self, seen_limit: int = 10000) -> None:
@@ -142,3 +149,4 @@ class State:
         _write_json(self.dir / "results.json", self.results)
         _write_json(self.dir / "quota.json", self.quota)
         _write_json(self.dir / "items.json", self.items)
+        _write_json(self.dir / "undelivered.json", self.undelivered)

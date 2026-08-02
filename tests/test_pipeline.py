@@ -266,3 +266,94 @@ def test_limit_defers_rest_instead_of_dropping(offline, monkeypatch, tmp_path):
     main_mod.run(Args1())
     assert len(state.pending) > 1, "溢れた分が pending に積まれていない"
     assert all(p["body"] for p in state.pending)
+
+
+# --- 通知の取りこぼし防止（送信失敗時の持ち越し） ---
+
+
+def _fail_mail(monkeypatch):
+    monkeypatch.setattr(main_mod.notify, "send_mail",
+                        lambda *a, **k: False)
+
+
+def _ok_mail(monkeypatch, captured):
+    def send(subject, body, cfg, dry_run=False):
+        captured.append((subject, body))
+        return True
+    monkeypatch.setattr(main_mod.notify, "send_mail", send)
+
+
+def _judge_all_relevant(monkeypatch):
+    def builder(settings, args):
+        def caller(prompt):
+            ids = [ln.split("id: ")[1].split("\n")[0]
+                   for ln in prompt.split("---\n")[1:]]
+            return json.dumps([
+                {"id": i, "relevant": True, "deadline": "2026-12-31",
+                 "deadline_known": True, "reason": "テスト"} for i in ids
+            ])
+        return caller
+    monkeypatch.setattr(main_mod, "_build_caller", builder)
+
+
+class ArgsLive(Args):
+    dry_run = False
+    no_ai = False
+
+
+def test_send_failure_keeps_items_for_next_run(offline, monkeypatch, tmp_path):
+    """送信に失敗したら S/A を undelivered に積む（握りつぶさない）。"""
+    state = State(data_dir=tmp_path)
+    monkeypatch.setattr(main_mod, "State", lambda **kw: state)
+    _judge_all_relevant(monkeypatch)
+    _fail_mail(monkeypatch)
+
+    main_mod.run(ArgsLive())
+    assert len(state.undelivered) > 0, "送信失敗なのに持ち越されていない"
+    assert all(r["rank"] in ("S", "A") for r in state.undelivered)
+
+
+def test_next_run_resends_undelivered(offline, monkeypatch, tmp_path):
+    """次回の実行で、前回未送信分がメール本文に載る。"""
+    state = State(data_dir=tmp_path)
+    monkeypatch.setattr(main_mod, "State", lambda **kw: state)
+    _judge_all_relevant(monkeypatch)
+
+    _fail_mail(monkeypatch)
+    main_mod.run(ArgsLive())
+    missed = [r["title"] for r in state.undelivered]
+    assert missed
+
+    captured = []
+    _ok_mail(monkeypatch, captured)
+    main_mod.run(ArgsLive())
+
+    body = captured[-1][1]
+    for title in missed[:3]:
+        assert title in body, f"前回未送信の「{title}」が再送されていない"
+    assert state.undelivered == [], "送信成功後もクリアされていない"
+
+
+def test_expired_undelivered_is_dropped(offline, monkeypatch, tmp_path):
+    """締切を過ぎた持ち越しは載せない（延々と溜まらないように）。"""
+    state = State(data_dir=tmp_path)
+    state.set_undelivered([{
+        "id": "s1", "source": "沖縄県", "title": "期限切れ案件",
+        "url": "https://x.jp/old", "rank": "A",
+        "verdict": {"deadline": "2020-01-01", "deadline_known": True},
+    }])
+    monkeypatch.setattr(main_mod, "State", lambda **kw: state)
+    _judge_all_relevant(monkeypatch)
+    captured = []
+    _ok_mail(monkeypatch, captured)
+
+    main_mod.run(ArgsLive())
+    assert "期限切れ案件" not in captured[-1][1]
+
+
+def test_undelivered_survives_reload(tmp_path):
+    """undelivered.json が保存・再読込されること。"""
+    s = State(data_dir=tmp_path)
+    s.set_undelivered([{"id": "s1", "title": "残す案件", "rank": "A"}])
+    s.save()
+    assert State(data_dir=tmp_path).undelivered[0]["title"] == "残す案件"
