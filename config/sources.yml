@@ -45,31 +45,31 @@ sources:
   feed: https://www.city.urasoe.lg.jp/category/kubun/news/index.rss
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 名護市
   top: https://www.city.nago.okinawa.jp/
   feed: https://www.city.nago.okinawa.jp/articles/index.rss
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 糸満市
   top: https://www.city.itoman.lg.jp/
   feed: https://www.city.itoman.lg.jp/rss/10/list1.xml
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 豊見城市
   top: https://www.city.tomigusuku.lg.jp/
   feed: https://www.city.tomigusuku.lg.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: うるま市
   top: https://www.city.uruma.lg.jp/
   feed: https://www.city.uruma.lg.jp/shinchaku/shinchaku.xml
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 南城市
   top: https://www.city.nanjo.okinawa.jp/
   feed: null
@@ -80,31 +80,31 @@ sources:
   feed: https://www.vill.kunigami.okinawa.jp/feed/
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 大宜味村
   top: https://www.vill.ogimi.okinawa.jp/
   feed: https://www.vill.ogimi.okinawa.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 東村
   top: https://www.vill.higashi.okinawa.jp/
   feed: https://www.vill.higashi.okinawa.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 今帰仁村
   top: https://www.nakijin.jp/
   feed: https://www.nakijin.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 本部町
   top: https://www.town.motobu.okinawa.jp/
   feed: https://www.town.motobu.okinawa.jp/category/news/index.rss
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 恩納村
   top: https://www.vill.onna.okinawa.jp/
   feed: null
@@ -120,31 +120,31 @@ sources:
   feed: https://www.town.kin.okinawa.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 読谷村
   top: https://www.vill.yomitan.okinawa.jp/
   feed: https://www.vill.yomitan.okinawa.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 嘉手納町
   top: https://www.town.kadena.okinawa.jp/
   feed: https://www.town.kadena.okinawa.jp/atom.xml
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 北谷町
   top: https://www.chatan.jp/
   feed: https://www.chatan.jp/rss_news.xml
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 北中城村
   top: https://www.vill.kitanakagusuku.lg.jp/
   feed: https://www.vill.kitanakagusuku.lg.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 中城村
   top: https://www.vill.nakagusuku.okinawa.jp/
   feed: null
@@ -155,25 +155,25 @@ sources:
   feed: https://www.town.nishihara.okinawa.jp/rss/10/list1.xml
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 与那原町
   top: https://www.town.yonabaru.okinawa.jp/
   feed: https://www.town.yonabaru.okinawa.jp/rss/10/list1.xml
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 南風原町
   top: https://www.town.haebaru.lg.jp/
   feed: https://www.town.haebaru.lg.jp/rss/10/list3.xml
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 八重瀬町
   top: https://www.town.yaese.lg.jp/
   feed: https://www.town.yaese.lg.jp/docs/index.rss
   method: feed
   status: ok
-  fail_streak: 12
+  fail_streak: 0
 - name: 内閣府沖縄総合事務局
   top: https://www.ogb.go.jp/soumu/soumu_tyouta.html
   feed: null
