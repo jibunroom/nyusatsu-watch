@@ -13,7 +13,7 @@ import sys
 import traceback
 from datetime import date, datetime, timedelta
 
-from . import config, notify, rank as rank_mod, results as results_mod
+from . import config, notify, rank as rank_mod, results as results_mod, slots
 from .fetch import FeedItem, Fetcher, fetch_detail, fetch_source
 from .judge import Judge, make_gemini_caller
 from .notify import RunSummary
@@ -234,6 +234,11 @@ def run(args) -> int:
         log.error("メール送信に失敗。%d件を次回に持ち越す", len(keep))
 
     maybe_monthly_summary(state, smtp, today, args.dry_run)
+
+    # 実行済みスロットを記録（20分おきの起動が二重実行しないための印）
+    slot = slots.current_slot(datetime.now(JST))
+    if slot:
+        state.last_batch[slot] = today.strftime("%Y-%m-%d")
 
     # --- persist（§7） ---
     state.save(seen_limit=settings["state"]["seen_max_per_source"])

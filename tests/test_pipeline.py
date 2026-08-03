@@ -360,3 +360,14 @@ def test_undelivered_survives_reload(tmp_path):
     s.set_undelivered([{"id": "s1", "title": "残す案件", "rank": "A"}])
     s.save()
     assert State(data_dir=tmp_path).undelivered[0]["title"] == "残す案件"
+
+
+def test_run_records_slot_marker(offline, monkeypatch, tmp_path):
+    """実行完了時に last_batch へスロットが記録される（gate の二重実行防止）。"""
+    from src import slots as slots_mod
+    state = State(data_dir=tmp_path)
+    monkeypatch.setattr(main_mod, "State", lambda **kw: state)
+    monkeypatch.setattr(main_mod.slots, "current_slot", lambda now: "morning")
+
+    main_mod.run(Args())
+    assert list(state.last_batch) == ["morning"]

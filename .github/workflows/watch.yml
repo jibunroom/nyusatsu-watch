@@ -1,13 +1,14 @@
 name: watch
 
-# 分は「30」ちょうどを避けている。GitHub の schedule は 0分・30分に
-# 世界中の予約が集中し、混雑で遅延・欠落しやすいため（初日の JST 17:30 分が
-# 実際に欠落した）。
+# GitHub の schedule は「指定時刻に1回」が信用できない（遅延・欠落の実績あり）。
+# そこで20分おきに起動を試みさせ、実際に走るかは gate（src/slots.py）が判定する。
+# スロットは JST 07:37〜 の morning と 17:37〜 の evening の1日2回。
+# 実行済みスロットは data/last_batch.json に記録され二重実行しない。
+# → 個々の起動が遅れても飛ばされても、次の起動が拾う。メールは1日2通のまま。
 on:
   schedule:
-    - cron: '37 22 * * *'   # JST 07:37
-    - cron: '37 8 * * *'    # JST 17:37
-  workflow_dispatch:         # 手動実行
+    - cron: '7,27,47 * * * *'
+  workflow_dispatch:         # 手動実行（gate を通らず必ず走る）
 
 concurrency:
   group: watch
@@ -23,14 +24,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: gate（このスロットを走らせるか判定）
+        id: gate
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "due=manual" >> "$GITHUB_OUTPUT"
+          else
+            # 標準ライブラリのみで動く（pip install 前）
+            python3 -m src.slots >> "$GITHUB_OUTPUT"
+          fi
+          cat "$GITHUB_OUTPUT" || true
+
       - uses: actions/setup-python@v5
+        if: steps.gate.outputs.due != 'none'
         with:
           python-version: '3.12'
           cache: pip
 
-      - run: pip install -r requirements.txt
+      - if: steps.gate.outputs.due != 'none'
+        run: pip install -r requirements.txt
 
       - name: run pipeline
+        if: steps.gate.outputs.due != 'none'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}

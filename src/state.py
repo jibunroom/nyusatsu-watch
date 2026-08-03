@@ -68,6 +68,8 @@ class State:
         self.items: list[dict] = _read_json(self.dir / "items.json", [])
         # メール送信に失敗した S/A。次回の通知に載せ直す（送信成功まで消さない）
         self.undelivered: list[dict] = _read_json(self.dir / "undelivered.json", [])
+        # スロット実行記録 {"morning": "2026-08-03", "evening": "2026-08-03"}
+        self.last_batch: dict = _read_json(self.dir / "last_batch.json", {})
         self._seen_index = {k: set(v) for k, v in self.seen.items()}
         self._result_urls = {r.get("url") for r in self.results}
         self._roll_quota()
@@ -150,3 +152,4 @@ class State:
         _write_json(self.dir / "quota.json", self.quota)
         _write_json(self.dir / "items.json", self.items)
         _write_json(self.dir / "undelivered.json", self.undelivered)
+        _write_json(self.dir / "last_batch.json", self.last_batch)
