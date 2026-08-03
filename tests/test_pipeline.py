@@ -52,6 +52,9 @@ def offline(monkeypatch):
     monkeypatch.setattr(main_mod, "fetch_detail", fake_fetch_detail)
     monkeypatch.setattr(main_mod, "Fetcher", lambda *a, **k: FakeFetcher())
     monkeypatch.setattr(main_mod, "git_persist", lambda dry_run: None)
+    # dry_run=False のテストが本物の config/sources.yml に fail_streak を
+    # 書き込まないように封じる（実際に汚染事故が起きた）
+    monkeypatch.setattr(main_mod.config, "save_sources", lambda *a, **k: None)
     return True
 
 
