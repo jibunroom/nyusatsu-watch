@@ -367,7 +367,8 @@ def test_run_records_slot_marker(offline, monkeypatch, tmp_path):
     from src import slots as slots_mod
     state = State(data_dir=tmp_path)
     monkeypatch.setattr(main_mod, "State", lambda **kw: state)
-    monkeypatch.setattr(main_mod.slots, "current_slot", lambda now: "morning")
+    monkeypatch.setattr(main_mod.slots, "mark_done",
+                        lambda now, lb: lb.update({"morning": "2026-08-04"}))
 
     main_mod.run(Args())
     assert list(state.last_batch) == ["morning"]

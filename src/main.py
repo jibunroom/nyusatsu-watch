@@ -235,10 +235,8 @@ def run(args) -> int:
 
     maybe_monthly_summary(state, smtp, today, args.dry_run)
 
-    # 実行済みスロットを記録（20分おきの起動が二重実行しないための印）
-    slot = slots.current_slot(datetime.now(JST))
-    if slot:
-        state.last_batch[slot] = today.strftime("%Y-%m-%d")
+    # 過ぎたスロットをまとめて既済にする（次の起動が二重送信しないための印）
+    slots.mark_done(datetime.now(JST), state.last_batch)
 
     # --- persist（§7） ---
     state.save(seen_limit=settings["state"]["seen_max_per_source"])
