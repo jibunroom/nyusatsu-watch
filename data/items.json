@@ -3868,5 +3868,35 @@
    "id": "s6",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "宜野湾市",
+  "title": "「宜野湾市ふるさと応援寄附推進事業業務委託」に係る企画提案の募集について",
+  "url": "https://www.city.ginowan.lg.jp/soshiki/kikaku/1/20695.html",
+  "published": "2026-08-06",
+  "summary": "宜野湾市ふるさと応援寄附推進事業業務委託にかかる企画提案募集",
+  "pdf_only": false,
+  "rank": "excluded",
+  "days_left": 4,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "office",
+   "amount_jpy": 144126000,
+   "amount_known": true,
+   "deadline": "2026-08-10",
+   "deadline_known": true,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "不明",
+   "experience_required": true,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "mid",
+   "reason": "提案上限額が144,126,000円で1000万円を超えているため。",
+   "id": "s1",
+   "relevant": false
+  }
  }
 ]
