@@ -4048,5 +4048,35 @@
    "id": "s5",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "西原町",
+  "title": "令和8年度グループウェア移行構築委託事業に係る一般競争入札の実施について",
+  "url": "https://www.town.nishihara.okinawa.jp/soshiki/3/15134.html",
+  "published": "2026-08-06",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": 10,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "it",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-08-17",
+   "deadline_known": true,
+   "method": "一般競争",
+   "qualification_needed": true,
+   "region_limit": "不明",
+   "experience_required": true,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "西原町のグループウェア移行構築案件で、IT・DX支援の得意分野に合致するため。",
+   "id": "s1",
+   "relevant": true
+  }
  }
 ]
