@@ -547,7 +547,9 @@
   "https://www.city.okinawa.okinawa.jp/k017/contents/p00048.html",
   "https://www.city.okinawa.okinawa.jp/k002-001/contents/p00009.html",
   "https://www.city.okinawa.okinawa.jp/k036-001/contents/p00041.html",
-  "https://www.city.okinawa.okinawa.jp/k042/contents/p00034.html"
+  "https://www.city.okinawa.okinawa.jp/k042/contents/p00034.html",
+  "https://www.city.okinawa.okinawa.jp/k008/p00029.html",
+  "https://www.city.okinawa.okinawa.jp/k056/contents/p00001.html"
  ],
  "浦添市": [
   "https://www.city.urasoe.lg.jp/doc/2025071600025/",
@@ -651,7 +653,8 @@
   "https://www.city.nago.okinawa.jp/articles/2026081000027/",
   "https://www.city.nago.okinawa.jp/articles/2026080800017/",
   "https://www.city.nago.okinawa.jp/articles/2026080500016/",
-  "https://www.city.nago.okinawa.jp/articles/2026081000010/"
+  "https://www.city.nago.okinawa.jp/articles/2026081000010/",
+  "https://www.city.nago.okinawa.jp/articles/2026080800024/"
  ],
  "糸満市": [
   "https://www.city.itoman.lg.jp/site/kosodate/20022.html",
@@ -880,7 +883,8 @@
   "https://www.city.uruma.lg.jp/3001006000/contents/p000095.html",
   "https://www.city.uruma.lg.jp/3001007000/contents/26878.html",
   "https://www.city.uruma.lg.jp/1005005000/contents/p000017.html",
-  "https://www.city.uruma.lg.jp/1007004000/contents/p000124.html"
+  "https://www.city.uruma.lg.jp/1007004000/contents/p000124.html",
+  "https://www.city.uruma.lg.jp/1007004000/contents/p000125.html"
  ],
  "国頭村": [
   "https://www.vill.kunigami.okinawa.jp/i_kyouiku/%e5%ad%90%e8%82%b2%e3%81%a6%e6%94%af%e6%8f%b4%e3%82%bb%e3%83%b3%e3%82%bf%e3%83%bc%e3%80%8c%e3%82%86%e3%81%a3%e3%81%8f%e3%81%84%e3%81%aa%e3%80%8d%e3%82%88%e3%82%8a8%e6%9c%88%e3%81%ae%e3%81%8a-4/",
@@ -933,7 +937,8 @@
   "https://www.vill.ogimi.okinawa.jp/sitekanri/gaiyo/profile/bashofu_village/1491.html",
   "https://www.vill.ogimi.okinawa.jp/soshiki/fukusihoken/gyomu/seikatsu_fukushi/1568.html",
   "https://www.vill.ogimi.okinawa.jp/soshiki/kosodatesien/1492.html",
-  "https://www.vill.ogimi.okinawa.jp/soshiki/nourinsuisanka/gyomu/nogyo_ringyo_suisan/nogyo/1386.html"
+  "https://www.vill.ogimi.okinawa.jp/soshiki/nourinsuisanka/gyomu/nogyo_ringyo_suisan/nogyo/1386.html",
+  "https://www.vill.ogimi.okinawa.jp/soshiki/kosodatesien/gyomu/kosodate/1575.html"
  ],
  "東村": [
   "https://www.vill.higashi.okinawa.jp/soshikikarasagasu/fukushihokenka/2/higashi_hoiku/355.html"
@@ -1039,7 +1044,8 @@
   "https://www.town.kadena.okinawa.jp/info/n8997.html",
   "https://www.town.kadena.okinawa.jp/info/n8996.html",
   "https://www.town.kadena.okinawa.jp/info/n8984.html",
-  "https://www.town.kadena.okinawa.jp/info/n8985.html"
+  "https://www.town.kadena.okinawa.jp/info/n8985.html",
+  "https://www.town.kadena.okinawa.jp/events/eve8995.html"
  ],
  "北谷町": [
   "https://www.chatan.jp/kenko_fukushi/kenko/yobo_iryo/sumatodiet.html",
@@ -1105,7 +1111,10 @@
   "https://www.chatan.jp/seikatsuguide/kankyo_pet/oshirase/8gatu8nitigomi2.html",
   "https://www.chatan.jp/seikatsuguide/gomi_recycle/oshirase/8gatu8nitigomi4.html",
   "https://www.chatan.jp/seikatsuguide/koen_doro/koen/chatanparkgolf.html",
-  "https://www.chatan.jp/kosodate/kyouiku/sports/taikai_event/aaa.html"
+  "https://www.chatan.jp/kosodate/kyouiku/sports/taikai_event/aaa.html",
+  "https://www.chatan.jp/seikatsuguide/anshin_anzen/taisaku/jara-to1.html",
+  "https://www.chatan.jp/seikatsuguide/sodan/sodan/shouhiseikatu.html",
+  "https://www.chatan.jp/seikatsuguide/shushoku_rodo/oshirase/asubesuto.html"
  ],
  "北中城村": [
   "https://www.vill.kitanakagusuku.lg.jp/kakuka/kikaku/chiiki/chiiki/787.html",
@@ -1247,7 +1256,8 @@
   "https://www.town.nishihara.okinawa.jp/soshiki/12/15160.html",
   "https://www.town.nishihara.okinawa.jp/soshiki/12/15156.html",
   "https://www.town.nishihara.okinawa.jp/soshiki/12/15102.html",
-  "https://www.town.nishihara.okinawa.jp/soshiki/8/15133.html"
+  "https://www.town.nishihara.okinawa.jp/soshiki/8/15133.html",
+  "https://www.town.nishihara.okinawa.jp/site/sakata-hoikusyo/15190.html"
  ],
  "与那原町": [
   "https://www.town.yonabaru.okinawa.jp/soshiki/14/9743.html",
