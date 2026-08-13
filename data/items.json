@@ -4378,5 +4378,65 @@
    "id": "s2",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "令和8年度準重点市場海外販路拡大事業委託業務　企画提案の募集",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025075/1041085.html",
+  "published": "2026-08-13",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "excluded",
+  "days_left": 14,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": 11500000,
+   "amount_known": true,
+   "deadline": "2026-08-27",
+   "deadline_known": true,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "不明",
+   "experience_required": true,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "上限額が1,000万円を超過しており、業務内容も専門外のため。",
+   "id": "s1",
+   "relevant": false
+  }
+ },
+ {
+  "id": "s2",
+  "source": "那覇市",
+  "title": "「令和8年度首里公民館印刷機賃貸借契約」に係る制限付一般競争入札の実施",
+  "url": "https://www.city.naha.okinawa.jp/business/touroku/1003701/1010948/1012519.html",
+  "published": "2026-08-13",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 19,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-09-01",
+   "deadline_known": true,
+   "method": "一般競争",
+   "qualification_needed": true,
+   "region_limit": "市内",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "対象外である物品賃貸借（印刷機レンタル）案件のため。",
+   "id": "s2",
+   "relevant": false
+  }
  }
 ]
