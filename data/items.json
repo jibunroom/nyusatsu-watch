@@ -4318,5 +4318,65 @@
    "id": "s5",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "宜野湾市",
+  "title": "令和8年度宜野湾市児童育成支援拠点運営事業業務委託事業者の公募について",
+  "url": "https://www.city.ginowan.lg.jp/soshiki/kodomo/3/5/20541.html",
+  "published": "2026-08-13",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": -28,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-07-16",
+   "deadline_known": true,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "市内",
+   "experience_required": true,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "児童の居場所設置・運営業務であり得意分野に該当しない。",
+   "id": "s1",
+   "relevant": false
+  }
+ },
+ {
+  "id": "s2",
+  "source": "うるま市",
+  "title": "〈指名競争入札〉石川ＩＣ線道路整備事業　物件調査業務（その1）に係る入札について",
+  "url": "https://www.city.uruma.lg.jp/1009004000/contents/p000028.html",
+  "published": "2026-08-12",
+  "summary": "石川ＩＣ線道路整備事業の物件調査業務",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 18,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-08-31",
+   "deadline_known": true,
+   "method": "指名",
+   "qualification_needed": true,
+   "region_limit": "不明",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "道路整備に係る物件調査業務であり得意分野外のため。",
+   "id": "s2",
+   "relevant": false
+  }
  }
 ]
