@@ -4438,5 +4438,35 @@
    "id": "s2",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "浦添市",
+  "title": "浦添市地域包括支援センター業務委託公募型プロポーザル質問書への回答について",
+  "url": "https://www.city.urasoe.lg.jp/doc/2026081200052/",
+  "published": "2026-08-14",
+  "summary": "浦添市地域包括支援センター業務委託公募型プロポーザル実施要項に基づき、令和８年８月６日（木）午後５時までに質問書の提出があった質問に対して以下のとおり回答いたします。\n\n質問回答書[PDF：58KB]",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": null,
+   "deadline_known": false,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "不明",
+   "experience_required": true,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "地域包括支援センター運営は福祉系専門職必須のため対象外",
+   "id": "s1",
+   "relevant": false
+  }
  }
 ]
