@@ -4738,5 +4738,19 @@
    "id": "s9",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "嘉手納町",
+  "title": "嘉手納町防災マップ作成業務委託　プロポーザル実施について - お知らせ",
+  "url": "https://www.town.kadena.okinawa.jp/info/n9005.html",
+  "published": "2026-08-16",
+  "summary": "嘉手納町では、「嘉手納町防災マップ作成業務」を実施するにあたり、公募型プロポーザ...",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
  }
 ]
