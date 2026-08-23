@@ -5040,5 +5040,35 @@
    "id": "s2",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "大宜味村",
+  "title": "条件付一般競争入札のお知らせ （大宜味村立診療所牽引器備品購入）",
+  "url": "https://www.vill.ogimi.okinawa.jp/soshiki/fukusihoken/gyomu/iryo_kenok/sinryousyozyouhou/1578.html",
+  "published": "2026-08-19",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 11,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-09-04",
+   "deadline_known": true,
+   "method": "一般競争",
+   "qualification_needed": true,
+   "region_limit": "不明",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "医療備品（牽引器）購入案件のため対象外。",
+   "id": "s1",
+   "relevant": false
+  }
  }
 ]
