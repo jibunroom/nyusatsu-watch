@@ -5316,5 +5316,35 @@
   "warn_staff": false,
   "judge_failed": true,
   "verdict": {}
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "令和8年度沖縄空手会館10周年記念事業委託業務",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025064/1037584/1041188.html",
+  "published": "2026-08-27",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": 14,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "creative",
+   "amount_jpy": 6944000,
+   "amount_known": true,
+   "deadline": "2026-09-10",
+   "deadline_known": true,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "県内",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "10周年記念映像制作やイベント運営を含む1000万以下の企画提案",
+   "id": "s1",
+   "relevant": true
+  }
  }
 ]
