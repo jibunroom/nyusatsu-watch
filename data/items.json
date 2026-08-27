@@ -5346,5 +5346,65 @@
    "id": "s1",
    "relevant": true
   }
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "公告　令和8年度沖縄県盛土規制法基礎調査業務委託",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025081/1037588/1041158.html",
+  "published": "2026-08-27",
+  "summary": "令和8年度沖縄県盛土規制法基礎調査業務委託を公告します。",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 19,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-09-15",
+   "deadline_known": true,
+   "method": "一般競争",
+   "qualification_needed": true,
+   "region_limit": "県内",
+   "experience_required": true,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "土木建築・測量関連の調査業務であり専門外のため。",
+   "id": "s1",
+   "relevant": false
+  }
+ },
+ {
+  "id": "s2",
+  "source": "沖縄県",
+  "title": "令和8年度沖縄県経済グローバル展開推進事業委託　企画提案公募",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025074/1037587/1041171.html",
+  "published": "2026-08-27",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 13,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "office",
+   "amount_jpy": 6505000,
+   "amount_known": true,
+   "deadline": "2026-09-09",
+   "deadline_known": true,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "県内",
+   "experience_required": true,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "海外展開施策等の調査・検討コンサル業務で専門領域外。",
+   "id": "s2",
+   "relevant": false
+  }
  }
 ]
