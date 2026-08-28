@@ -5406,5 +5406,47 @@
    "id": "s2",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "第30回沖縄県産業教育フェア会場設営等業務委託（再）",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025064/1037584/1041217.html",
+  "published": "2026-08-28",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s2",
+  "source": "那覇市",
+  "title": "令和8年度那覇市民体育館個別長寿命化計画策定業務委託",
+  "url": "https://www.city.naha.okinawa.jp/business/touroku/1003844/1010980/1012619.html",
+  "published": "2026-08-28",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s3",
+  "source": "那覇市",
+  "title": "こどもの権利に関する意識醸成・意見表明支援のプログラムおよび教材作成等業務委託に係る公募型プロポーザル",
+  "url": "https://www.city.naha.okinawa.jp/business/touroku/1003701/1010949/1012584.html",
+  "published": "2026-08-28",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
  }
 ]
