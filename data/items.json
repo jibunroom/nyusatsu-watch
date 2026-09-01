@@ -5520,5 +5520,75 @@
    "id": "s1",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "令和8年度価格転嫁・所得向上気運醸成イベント等委託業務にかかる企画提案公募",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025064/1037584/1041287.html",
+  "published": "2026-09-01",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s2",
+  "source": "那覇市",
+  "title": "中央・牧志駅前ほしぞら・首里図書館複合機賃貸借及び保守業務契約に係る制限付一般競争入札の実施について",
+  "url": "https://www.city.naha.okinawa.jp/lib/riyouannai/1006780/1012632.html",
+  "published": "2026-09-01",
+  "summary": "複合機入札の公募ページ",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s3",
+  "source": "那覇市",
+  "title": "令和8年度消防車両オールシーズンタイヤ交換業務契約に係る制限付き一般競争入札の実施について",
+  "url": "https://www.city.naha.okinawa.jp/home/osirase/1008600/1012647.html",
+  "published": "2026-09-01",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s4",
+  "source": "那覇市",
+  "title": "「那覇MICE受入推進事業　MICE市民講座支援業務委託」における企画提案募集",
+  "url": "https://www.city.naha.okinawa.jp/kankou-bunka/mice/1012544.html",
+  "published": "2026-09-01",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s5",
+  "source": "糸満市",
+  "title": "糸満市文化のチカラしまくとぅば普及推進事業業務委託に係るプロポーザルについて（終了しました）",
+  "url": "https://www.city.itoman.lg.jp/soshiki/31/39316.html",
+  "published": "2026-08-31",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
  }
 ]
