@@ -5490,5 +5490,35 @@
   "warn_staff": false,
   "judge_failed": true,
   "verdict": {}
+ },
+ {
+  "id": "s1",
+  "source": "沖縄市",
+  "title": "【募集】沖縄市水道施設整備事業計画（管路耐震化計画・更新計画）業務委託に係る公募型プロポーザルについて",
+  "url": "https://www.city.okinawa.okinawa.jp/k056/contents/p00002.html",
+  "published": "2026-09-01",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 27,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-09-28",
+   "deadline_known": true,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "不明",
+   "experience_required": true,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "水道施設の計画策定業務であり建設コンサル系のため対象外。",
+   "id": "s1",
+   "relevant": false
+  }
  }
 ]
