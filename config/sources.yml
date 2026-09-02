@@ -33,7 +33,7 @@ sources:
   feed: https://www.city.ginowan.lg.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 0
+  fail_streak: 1
 - name: 沖縄市
   top: https://www.city.okinawa.okinawa.jp/
   feed: https://www.city.okinawa.okinawa.jp/shinchaku.xml
