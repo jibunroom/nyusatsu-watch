@@ -5590,5 +5590,19 @@
   "warn_staff": false,
   "judge_failed": true,
   "verdict": {}
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "「沖縄鉄軌道導入を見据えたフィーダー交通検討業務（R8）」 に係る企画提案書の公募について",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025074/1037587/1041335.html",
+  "published": "2026-09-02",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
  }
 ]
