@@ -5604,5 +5604,61 @@
   "warn_staff": false,
   "judge_failed": true,
   "verdict": {}
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "令和8年度自動車学校人材育成支援補助金の公募",
+  "url": "https://www.pref.okinawa.lg.jp/machizukuri/dorokotsu/1012558/1041343.html",
+  "published": "2026-09-03",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s2",
+  "source": "那覇市",
+  "title": "「クリーン推進課軽自動車（電気自動車）賃貸借契約」に係る 制限付一般競争入札の実施について",
+  "url": "https://www.city.naha.okinawa.jp/business/touroku/1003701/1010948/1012661.html",
+  "published": "2026-09-03",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s3",
+  "source": "沖縄市",
+  "title": "「令和8年度沖縄市・北中城村キャンプ瑞慶覧返還地区等跡地利用計画推進支援業務委託」に係る公募型プロポーザルの実施について（募集）",
+  "url": "https://www.city.okinawa.okinawa.jp/k035-001/contents/p00037.html",
+  "published": "2026-09-03",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s4",
+  "source": "糸満市",
+  "title": "第7回いとまん平和マラソン運営委託業務に係るプロポーザルの実施について",
+  "url": "https://www.city.itoman.lg.jp/soshiki/21/39435.html",
+  "published": "2026-09-03",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
  }
 ]
