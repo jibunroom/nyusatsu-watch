@@ -5660,5 +5660,33 @@
   "warn_staff": false,
   "judge_failed": true,
   "verdict": {}
+ },
+ {
+  "id": "s1",
+  "source": "那覇市",
+  "title": "那覇市広告入り窓口用封筒無償提供者の公募について",
+  "url": "https://www.city.naha.okinawa.jp/business/touroku/1003701/1010949/1012674.html",
+  "published": "2026-09-04",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s2",
+  "source": "糸満市",
+  "title": "令和8年度糸満市産業まつり開催事業公募型プロポーザルの実施について（質問書への回答）",
+  "url": "https://www.city.itoman.lg.jp/soshiki/20/39487.html",
+  "published": "2026-09-04",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
  }
 ]
