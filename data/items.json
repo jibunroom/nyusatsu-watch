@@ -5838,5 +5838,19 @@
    "id": "s3",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "令和8年度委託訓練（非正規雇用労働者等が働きながら学びやすい職業訓練）企画提案公募",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025078/1041265.html",
+  "published": "2026-09-07",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
  }
 ]
