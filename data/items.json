@@ -6178,5 +6178,33 @@
    "id": "s5",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "沖縄市",
+  "title": "沖縄市上下水道事業包括業務委託（ウォーターＰＰＰ）に係る公募型プロポーザルの実施について",
+  "url": "https://www.city.okinawa.okinawa.jp/k054/contents/p00040.html",
+  "published": "2026-09-13",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s2",
+  "source": "糸満市",
+  "title": "【指名競争入札】真栄里土地区画整理事業 環境影響評価事後調査に関する入札資料配布について",
+  "url": "https://www.city.itoman.lg.jp/soshiki/42/39625.html",
+  "published": "2026-09-14",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
  }
 ]
