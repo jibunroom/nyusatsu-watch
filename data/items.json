@@ -6220,5 +6220,19 @@
   "warn_staff": false,
   "judge_failed": true,
   "verdict": {}
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "てだこ浦西駅賑わい創出実証実験の公募",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025067/1041160.html",
+  "published": "2026-09-16",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
  }
 ]
