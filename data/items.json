@@ -6294,5 +6294,35 @@
    "id": "s2",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "入札・契約関連（その他）",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1012089/1015973/index.html",
+  "published": "2026-09-16",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": null,
+   "deadline_known": false,
+   "method": "不明",
+   "qualification_needed": false,
+   "region_limit": "不明",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "個別案件の公募ではなく規程改正等のお知らせのため",
+   "id": "s1",
+   "relevant": false
+  }
  }
 ]
