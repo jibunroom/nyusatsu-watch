@@ -6324,5 +6324,33 @@
    "id": "s1",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "ICT機器（携帯型情報端末）の調達に係る一般競争入札",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025082/1038049/1041459.html",
+  "published": "2026-09-17",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s2",
+  "source": "那覇市",
+  "title": "令和8年度 なはまぐろを学ぶ水産教室開催及び巨人軍贈呈業務に係る制限付一般競争入札の実施",
+  "url": "https://www.city.naha.okinawa.jp/business/sangyou/1003612/1012747.html",
+  "published": "2026-09-17",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
  }
 ]
