@@ -6596,5 +6596,33 @@
    "id": "s3",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "令和8年度景観形成に係る石積み技術の継承と人材育成に関する技術開発業務の企画提案公募",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025074/1037587/1041521.html",
+  "published": "2026-09-28",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s2",
+  "source": "宜野湾市",
+  "title": "令和8年度宜野湾市こどもの居場所運営支援事業補助金交付団体の募集について（9月公募）",
+  "url": "https://www.city.ginowan.lg.jp/soshiki/kodomo/3/5/20894.html",
+  "published": "2026-09-28",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
  }
 ]
