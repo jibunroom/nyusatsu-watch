@@ -6708,5 +6708,33 @@
   "warn_staff": false,
   "judge_failed": true,
   "verdict": {}
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "「災害用備蓄物資等売買契約」に係る入札公告（R8）",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025082/1038049/1040778.html",
+  "published": "2026-09-30",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s2",
+  "source": "与那原町",
+  "title": "令和8年度石油貯蔵施設立地対策等交付金事業「物資等運搬車両整備」の条件付き一般競争入札の実施について",
+  "url": "https://www.town.yonabaru.okinawa.jp/soshiki/8/10155.html",
+  "published": "2026-09-30",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
  }
 ]
