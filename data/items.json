@@ -7204,5 +7204,33 @@
    "id": "s2",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "「令和8年度県産農産物の安全安心推進事業委託業務」の企画提案の募集",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025067/1041615.html",
+  "published": "2026-10-06",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
+ },
+ {
+  "id": "s2",
+  "source": "那覇市",
+  "title": "「大道小学校劣化調査業務委託」に係る制限付一般競争入札の実施",
+  "url": "https://www.city.naha.okinawa.jp/business/touroku/1003701/1010948/1012811.html",
+  "published": "2026-10-06",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": true,
+  "verdict": {}
  }
 ]
