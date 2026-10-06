@@ -7144,5 +7144,65 @@
    "id": "s8",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "沖縄県地球温暖化対策実行計画協議会構成員の公募",
+  "url": "https://www.pref.okinawa.lg.jp/kurashikankyo/kankyo/1004831/1041585.html",
+  "published": "2026-10-05",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 20,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": 10000,
+   "amount_known": true,
+   "deadline": "2026-10-26",
+   "deadline_known": true,
+   "method": "不明",
+   "qualification_needed": false,
+   "region_limit": "県内",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "法人の受注案件ではなく、個人を対象とした委員の公募であるため。",
+   "id": "s1",
+   "relevant": false
+  }
+ },
+ {
+  "id": "s2",
+  "source": "沖縄市",
+  "title": "モータースポーツマルチフィールド沖縄法面変状調査業務委託に係る 公募型プロポーザル（簡易型）について",
+  "url": "https://www.city.okinawa.okinawa.jp/k009-002/contents/p00045.html",
+  "published": "2026-10-04",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 20,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": 0,
+   "amount_known": false,
+   "deadline": "2026-10-26",
+   "deadline_known": true,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "不明",
+   "experience_required": true,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "土木・建設系の法面変状調査業務であり、得意分野に該当しないため。",
+   "id": "s2",
+   "relevant": false
+  }
  }
 ]
