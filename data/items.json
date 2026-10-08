@@ -7320,5 +7320,65 @@
    "id": "s2",
    "relevant": false
   }
+ },
+ {
+  "id": "s1",
+  "source": "浦添市",
+  "title": "【公告】一般競争入札（券面記載事項変更等に係る機械器具購入）",
+  "url": "https://www.city.urasoe.lg.jp/doc/2026100700075/",
+  "published": "2026-10-08",
+  "summary": "券面記載事項変更等に係る機械器具購入に係る一般競争入札について、次の通り公告します。\n\n１　一般競争入札に付する事項\n\n\n\t件　　名　　　　　　券面記載事項変更等に係る機械器具購入契約\n\t調達物件及び数量　　仕様書記載の通り\n\t仕　　様　　　　　　仕様書記載の通り\n\t納入場所　　　　　　浦添市役所１階　市民課（浦添市安波茶１丁目１番１号）\n\t納入期日　　　　　　令和８年11月30日まで\n\n\n２　入札に参加できる者の資格要件\n\n本入札に参加する資格を有する者は、次に掲げる要件をすべて満たす者とします。\n\n\n\t地方自治法施行令第167条の４の規定に該当しない者であること\n\t本入札の公告日から落札者決定の日（落札者がなかったときは、本入札の終了を宣言した日）までの間に、本市から指名停止の措置または入札参加資格の取り消しを受けていないものであること\n\t浦添市契約規則(昭和55年規則第４号)第17条の規定に基づく審査により、本入札の参加資格を有すると認められたものであること\n\t令和８、９年度浦添市競争入札参加資格者名簿に登録されていること\n\t暴力団員による不当な行為の防止等に関する法律第...",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 11,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-10-19",
+   "deadline_known": true,
+   "method": "一般競争",
+   "qualification_needed": true,
+   "region_limit": "県内",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "除外対象である物品購入（機械器具購入）の案件であるため。",
+   "id": "s1",
+   "relevant": false
+  }
+ },
+ {
+  "id": "s2",
+  "source": "浦添市",
+  "title": "【一般競争入札公告】令和９年度用　市・県民税賦課資料パンチデータ作成業務委託契約",
+  "url": "https://www.city.urasoe.lg.jp/doc/2025100100052/",
+  "published": "2026-10-08",
+  "summary": "１ 一般競争入札に付する事項\n\n（１）件名 ： 令和９年度用市・県民税賦課資料パンチデータ作成業務委託\n（２）仕様 ： 業務委託仕様書のとおり\n（３）履行期間 ： 契約締結から令和９年３月31日まで\n\n&nbsp;&nbsp;浦添市公告第253号[PDF：759KB]\n\n２ 入札に参加できる者の資格要件\n\n次に掲げる条件をすべて満たす者とする。\n\n（１）地方自治法施行令第167条の4に規定にされている事項に該当しない者。\n（２）申請しようとする年の１月１日において、引き続き１年以上同種の営業を営んでいる者。\n（３） 国税、都道府県税、市町村税、社会保険料に滞納がない者。\n（４） 会社更生法（平成14年法律第154号）に基づく更生手続開始の申立て、又は民事再生法（平成11年法律第225　　　　　号）に基づく再生手続き開始の申立てをしている者でないこと。\n（５） 浦添市暴力団排除条例第２条第１号に規定する暴力団又は同条第２号に規定する暴力団員に該当して\n　　　 おらず、又は関係していない者。\n（６）沖縄県内に本店・支店 または営業所の住所を有する者。\n（７）契約の履行にあたり、個人情...",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": 22,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "data",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-10-30",
+   "deadline_known": true,
+   "method": "一般競争",
+   "qualification_needed": true,
+   "region_limit": "県内",
+   "experience_required": true,
+   "security_cert_required": true,
+   "staff_required": 0,
+   "automation_potential": "high",
+   "reason": "得意分野のデータ入力業務。実績とセキュリティ認証が必要。",
+   "id": "s2",
+   "relevant": true
+  }
  }
 ]
