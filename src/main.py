@@ -207,7 +207,9 @@ def run(args) -> int:
         summary.counts[r.rank] = summary.counts.get(r.rank, 0) + 1
     state.add_items([r.to_record() for r in ranked])
 
-    # --- notify（§5-2）。0件でも必ず送る ---
+    # --- notify（§5-2）。S/A が1件以上あるときだけ送る ---
+    # 仕様は「0件でも生存通知を必ず送る」だったが、2026-10-12 にユーザーの希望で
+    # 該当ありのときだけに変更（実行エラー時の「実行エラー」メールは従来どおり送る）。
     # 前回メールを送れなかった S/A を今回の通知に混ぜ直す。
     # 「判定した」ではなく「実際に届いた」までを完了とみなす。
     carried_over = [
@@ -219,9 +221,15 @@ def run(args) -> int:
 
     to_notify = carried_over + ranked
     summary.quota_used = state.quota_count
-    subject = notify.build_subject(to_notify, summary)
-    body = notify.build_body(to_notify, summary)
-    sent = notify.send_mail(subject, body, smtp, dry_run=args.dry_run)
+    if any(r.rank in (rank_mod.S, rank_mod.A) for r in to_notify):
+        subject = notify.build_subject(to_notify, summary)
+        body = notify.build_body(to_notify, summary)
+        sent = notify.send_mail(subject, body, smtp, dry_run=args.dry_run)
+    else:
+        log.info("該当0件のためメールは送らない")
+        if args.dry_run:
+            print("該当0件のためメールは送らない\n" + summary.render())
+        sent = True   # 送るべきものが無い＝持ち越しも無い
 
     if sent:
         state.set_undelivered([])

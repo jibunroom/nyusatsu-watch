@@ -77,8 +77,10 @@ def test_full_pipeline_dry_run_no_network(offline, capsys, monkeypatch, tmp_path
     assert "巡回: 4/" in out, "fixtures のある4機関は成功するはず"
 
 
-def test_pipeline_sends_mail_even_with_zero_hits(monkeypatch, capsys, tmp_path):
-    """生存通知（§5-2）。新着ゼロでも必ず送る。"""
+def test_no_mail_when_zero_hits(monkeypatch, capsys, tmp_path):
+    """該当0件ならメールは送らない（2026-10-12 ユーザーの希望で生存通知を廃止）。"""
+    sent = []
+    monkeypatch.setattr(main_mod.notify, "send_mail", lambda *a, **k: sent.append(a) or True)
     monkeypatch.setattr(main_mod, "fetch_source", lambda f, s: ([], False))
     monkeypatch.setattr(main_mod, "Fetcher", lambda *a, **k: FakeFetcher())
     monkeypatch.setattr(main_mod, "git_persist", lambda dry_run: None)
@@ -86,7 +88,8 @@ def test_pipeline_sends_mail_even_with_zero_hits(monkeypatch, capsys, tmp_path):
                         lambda **kw: State(data_dir=tmp_path, dry_run=True))
     main_mod.run(Args())
     out = capsys.readouterr().out
-    assert "[入札] 本日0件・巡回" in out
+    assert sent == []
+    assert "該当0件のためメールは送らない" in out
 
 
 def test_second_run_sees_nothing_new(offline, monkeypatch, tmp_path, capsys):
