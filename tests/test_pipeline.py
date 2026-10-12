@@ -55,6 +55,8 @@ def offline(monkeypatch):
     # dry_run=False のテストが本物の config/sources.yml に fail_streak を
     # 書き込まないように封じる（実際に汚染事故が起きた）
     monkeypatch.setattr(main_mod.config, "save_sources", lambda *a, **k: None)
+    # 週1の稼働中メールは実時刻（月曜朝）で発火するので、パイプラインのテストでは止める
+    monkeypatch.setattr(main_mod, "maybe_weekly_alive", lambda *a, **k: False)
     return True
 
 
@@ -81,6 +83,7 @@ def test_no_mail_when_zero_hits(monkeypatch, capsys, tmp_path):
     """該当0件ならメールは送らない（2026-10-12 ユーザーの希望で生存通知を廃止）。"""
     sent = []
     monkeypatch.setattr(main_mod.notify, "send_mail", lambda *a, **k: sent.append(a) or True)
+    monkeypatch.setattr(main_mod, "maybe_weekly_alive", lambda *a, **k: False)
     monkeypatch.setattr(main_mod, "fetch_source", lambda f, s: ([], False))
     monkeypatch.setattr(main_mod, "Fetcher", lambda *a, **k: FakeFetcher())
     monkeypatch.setattr(main_mod, "git_persist", lambda dry_run: None)
@@ -375,3 +378,44 @@ def test_run_records_slot_marker(offline, monkeypatch, tmp_path):
 
     main_mod.run(Args())
     assert list(state.last_batch) == ["morning"]
+
+
+# --- 週1回の稼働中メール（0件の日は送らないため、止まっていないことを確かめる） ---
+
+
+def _weekly(tmp_path, monkeypatch, when, last=None):
+    from datetime import datetime
+    from src.notify import RunSummary
+    from src.state import JST
+    st = State(data_dir=tmp_path, dry_run=True)
+    if last:
+        st.last_batch["weekly"] = last
+    st.add_items([{"rank": "S", "judged_at": "2026-10-10T07:40"},
+                  {"rank": "B", "judged_at": "2026-10-11T17:40"},
+                  {"rank": "A", "judged_at": "2026-09-01T07:40"}])   # 7日より前は数えない
+    sent = []
+    monkeypatch.setattr(main_mod.notify, "send_mail", lambda subj, *a, **k: sent.append(subj) or True)
+    now = datetime(*when, tzinfo=JST)
+    return main_mod.maybe_weekly_alive(st, {}, now, RunSummary(), dry_run=True), sent, st
+
+
+def test_weekly_alive_on_monday_morning(tmp_path, monkeypatch):
+    ok, sent, st = _weekly(tmp_path, monkeypatch, (2026, 10, 12, 7, 40))
+    assert ok and sent == ["[入札] 稼働中（今週の判定2件・S1 A0）"]
+    assert st.last_batch["weekly"] == "2026-W42"
+
+
+def test_weekly_alive_only_once_a_week(tmp_path, monkeypatch):
+    ok, sent, _ = _weekly(tmp_path, monkeypatch, (2026, 10, 12, 17, 40), last="2026-W42")
+    assert not ok and sent == []
+
+
+def test_weekly_alive_not_before_monday_morning(tmp_path, monkeypatch):
+    ok, sent, _ = _weekly(tmp_path, monkeypatch, (2026, 10, 12, 3, 0))
+    assert not ok and sent == []
+
+
+def test_weekly_alive_catches_up_if_monday_was_missed(tmp_path, monkeypatch):
+    """GitHub の起動が遅れて月曜に1回も動かなかったら、火曜の最初の実行で送る。"""
+    ok, sent, _ = _weekly(tmp_path, monkeypatch, (2026, 10, 13, 9, 0), last="2026-W41")
+    assert ok and len(sent) == 1

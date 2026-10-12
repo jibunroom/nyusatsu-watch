@@ -75,6 +75,33 @@ def handle_results(fetcher, items, state, settings, today) -> int:
     return recorded
 
 
+def maybe_weekly_alive(state, smtp, now: datetime, summary: RunSummary, dry_run: bool) -> bool:
+    """毎週月曜の朝に「稼働中」の短いメールを1通だけ送る。
+
+    0件の日はメールを送らない設定（2026-10-12〜）にしたため、止まっていないことをこれで確かめる。
+    GitHub の起動は遅れることがあるので「月曜 07:37 以降の最初の実行」で送り、
+    週（ISO週）ごとに1回だけにする。送れたら True。
+    """
+    monday = (now - timedelta(days=now.weekday())).replace(hour=7, minute=37, second=0, microsecond=0)
+    week = f"{now.isocalendar()[0]}-W{now.isocalendar()[1]:02d}"
+    if now < monday or state.last_batch.get("weekly") == week:
+        return False
+    since = (now - timedelta(days=7)).isoformat(timespec="minutes")
+    recent = [i for i in state.items if i.get("judged_at", "") >= since]
+    n = {r: sum(1 for i in recent if i.get("rank") == r) for r in ("S", "A", "B")}
+    subject = f"[入札] 稼働中（今週の判定{len(recent)}件・S{n['S']} A{n['A']}）"
+    body = (
+        "入札監視は動いています（毎週月曜の定期連絡）。\n"
+        "S・Aが見つかった回だけ案件メールが届き、0件の日は届きません。\n\n"
+        f"直近7日の判定: {len(recent)}件（S:{n['S']} A:{n['A']} B:{n['B']}）\n\n"
+        + summary.render() + "\n"
+    )
+    if notify.send_mail(subject, body, smtp, dry_run=dry_run):
+        state.last_batch["weekly"] = week
+        return True
+    return False
+
+
 def maybe_monthly_summary(state, smtp, today, dry_run: bool) -> None:
     """毎月1日の朝実行で先月分を集計してメール（§6）。"""
     if today.day != 1:
@@ -205,7 +232,8 @@ def run(args) -> int:
     ranked = rank_mod.rank_all(judged_items, verdicts, judge_failed, settings, today)
     for r in ranked:
         summary.counts[r.rank] = summary.counts.get(r.rank, 0) + 1
-    state.add_items([r.to_record() for r in ranked])
+    judged_at = datetime.now(JST).isoformat(timespec="minutes")
+    state.add_items([{**r.to_record(), "judged_at": judged_at} for r in ranked])
 
     # --- notify（§5-2）。S/A が1件以上あるときだけ送る ---
     # 仕様は「0件でも生存通知を必ず送る」だったが、2026-10-12 にユーザーの希望で
@@ -242,6 +270,7 @@ def run(args) -> int:
         log.error("メール送信に失敗。%d件を次回に持ち越す", len(keep))
 
     maybe_monthly_summary(state, smtp, today, args.dry_run)
+    maybe_weekly_alive(state, smtp, datetime.now(JST), summary, args.dry_run)
 
     # 過ぎたスロットをまとめて既済にする（次の起動が二重送信しないための印）
     slots.mark_done(datetime.now(JST), state.last_batch)
