@@ -8047,5 +8047,36 @@
    "relevant": false
   },
   "judged_at": "2026-10-16T19:09+09:00"
+ },
+ {
+  "id": "s1",
+  "source": "沖縄市",
+  "title": "沖縄市大規模下水道管路特別重点調査業務委託（空洞調査）に係る公募型プロポーザルの実施について",
+  "url": "https://www.city.okinawa.okinawa.jp/k058/contents/p00037.html",
+  "published": "2026-10-19",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 21,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-11-09",
+   "deadline_known": true,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "不明",
+   "experience_required": true,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "下水道管路の空洞調査業務であり得意分野外のため。",
+   "id": "s1",
+   "relevant": false
+  },
+  "judged_at": "2026-10-19T09:09+09:00"
  }
 ]
