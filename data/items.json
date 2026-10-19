@@ -8078,5 +8078,67 @@
    "relevant": false
   },
   "judged_at": "2026-10-19T09:09+09:00"
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "令和8年度沖縄県介護職魅力発信PR映像等作成業務（若者向け）企画提案公募",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025064/1037584/1041641.html",
+  "published": "2026-10-19",
+  "summary": "令和8年度沖縄県介護職魅力発信PR映像等作成業務（若者向け）企画提案公募",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": 17,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "creative",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-11-05",
+   "deadline_known": true,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "県内",
+   "experience_required": true,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "介護職魅力発信PR映像等の制作業務であり得意分野(c)に合致。",
+   "id": "s1",
+   "relevant": true
+  },
+  "judged_at": "2026-10-19T19:41+09:00"
+ },
+ {
+  "id": "s2",
+  "source": "沖縄市",
+  "title": "【11月2日開催】電子入札の導入に関する事業者説明会について",
+  "url": "https://www.city.okinawa.okinawa.jp/k005-001/contents/p00010.html",
+  "published": "2026-10-18",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": null,
+   "deadline_known": false,
+   "method": "不明",
+   "qualification_needed": false,
+   "region_limit": "不明",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "説明会の案内であり発注案件ではないため。",
+   "id": "s2",
+   "relevant": false
+  },
+  "judged_at": "2026-10-19T19:41+09:00"
  }
 ]
