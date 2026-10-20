@@ -8140,5 +8140,67 @@
    "relevant": false
   },
   "judged_at": "2026-10-19T19:41+09:00"
+ },
+ {
+  "id": "s1",
+  "source": "那覇市",
+  "title": "「小中学校振興備品（ミシン）の購入」に係る制限付一般競争入札の実施",
+  "url": "https://www.city.naha.okinawa.jp/business/touroku/1003844/1010980/1012915.html",
+  "published": "2026-10-20",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 8,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-10-28",
+   "deadline_known": true,
+   "method": "一般競争",
+   "qualification_needed": true,
+   "region_limit": "不明",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "除外条件である物品購入（ミシン）の案件のため。",
+   "id": "s1",
+   "relevant": false
+  },
+  "judged_at": "2026-10-20T19:15+09:00"
+ },
+ {
+  "id": "s2",
+  "source": "那覇市",
+  "title": "令和8年度首里金城の大アカギ樹勢回復業務委託に係る制限付一般競争入札の実施",
+  "url": "https://www.city.naha.okinawa.jp/business/touroku/1003701/1010948/1012907.html",
+  "published": "2026-10-20",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 10,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-10-30",
+   "deadline_known": true,
+   "method": "一般競争",
+   "qualification_needed": true,
+   "region_limit": "不明",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "樹木回復業務であり得意分野（IT・クリエイティブ・事務）外のため。",
+   "id": "s2",
+   "relevant": false
+  },
+  "judged_at": "2026-10-20T19:15+09:00"
  }
 ]
