@@ -33,7 +33,7 @@ sources:
   feed: https://www.city.ginowan.lg.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 1
+  fail_streak: 2
 - name: 沖縄市
   top: https://www.city.okinawa.okinawa.jp/
   feed: https://www.city.okinawa.okinawa.jp/shinchaku.xml
@@ -63,7 +63,7 @@ sources:
   feed: https://www.city.tomigusuku.lg.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 1
+  fail_streak: 2
 - name: うるま市
   top: https://www.city.uruma.lg.jp/
   feed: https://www.city.uruma.lg.jp/shinchaku/shinchaku.xml
@@ -86,19 +86,19 @@ sources:
   feed: https://www.vill.ogimi.okinawa.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 1
+  fail_streak: 2
 - name: 東村
   top: https://www.vill.higashi.okinawa.jp/
   feed: https://www.vill.higashi.okinawa.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 1
+  fail_streak: 2
 - name: 今帰仁村
   top: https://www.nakijin.jp/
   feed: https://www.nakijin.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 1
+  fail_streak: 0
 - name: 本部町
   top: https://www.town.motobu.okinawa.jp/
   feed: https://www.town.motobu.okinawa.jp/category/news/index.rss
@@ -120,13 +120,13 @@ sources:
   feed: https://www.town.kin.okinawa.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 1
+  fail_streak: 2
 - name: 読谷村
   top: https://www.vill.yomitan.okinawa.jp/
   feed: https://www.vill.yomitan.okinawa.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 1
+  fail_streak: 2
 - name: 嘉手納町
   top: https://www.town.kadena.okinawa.jp/
   feed: https://www.town.kadena.okinawa.jp/atom.xml
@@ -144,7 +144,7 @@ sources:
   feed: https://www.vill.kitanakagusuku.lg.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 1
+  fail_streak: 2
 - name: 中城村
   top: https://www.vill.nakagusuku.okinawa.jp/
   feed: null
