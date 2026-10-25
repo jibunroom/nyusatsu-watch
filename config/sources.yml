@@ -32,7 +32,7 @@ sources:
   top: https://www.city.ginowan.lg.jp/
   feed: https://www.city.ginowan.lg.jp/cgi-bin/feed.php?siteNew=1
   method: feed
-  status: ok
+  status: no_feed
   fail_streak: 8
 - name: 沖縄市
   top: https://www.city.okinawa.okinawa.jp/
@@ -62,7 +62,7 @@ sources:
   top: https://www.city.tomigusuku.lg.jp/
   feed: https://www.city.tomigusuku.lg.jp/cgi-bin/feed.php?siteNew=1
   method: feed
-  status: ok
+  status: no_feed
   fail_streak: 8
 - name: うるま市
   top: https://www.city.uruma.lg.jp/
@@ -85,13 +85,13 @@ sources:
   top: https://www.vill.ogimi.okinawa.jp/
   feed: https://www.vill.ogimi.okinawa.jp/cgi-bin/feed.php?siteNew=1
   method: feed
-  status: ok
+  status: no_feed
   fail_streak: 8
 - name: 東村
   top: https://www.vill.higashi.okinawa.jp/
   feed: https://www.vill.higashi.okinawa.jp/cgi-bin/feed.php?siteNew=1
   method: feed
-  status: ok
+  status: no_feed
   fail_streak: 8
 - name: 今帰仁村
   top: https://www.nakijin.jp/
@@ -119,13 +119,13 @@ sources:
   top: https://www.town.kin.okinawa.jp/
   feed: https://www.town.kin.okinawa.jp/cgi-bin/feed.php?siteNew=1
   method: feed
-  status: ok
+  status: no_feed
   fail_streak: 8
 - name: 読谷村
   top: https://www.vill.yomitan.okinawa.jp/
   feed: https://www.vill.yomitan.okinawa.jp/cgi-bin/feed.php?siteNew=1
   method: feed
-  status: ok
+  status: no_feed
   fail_streak: 8
 - name: 嘉手納町
   top: https://www.town.kadena.okinawa.jp/
@@ -143,7 +143,7 @@ sources:
   top: https://www.vill.kitanakagusuku.lg.jp/
   feed: https://www.vill.kitanakagusuku.lg.jp/cgi-bin/feed.php?siteNew=1
   method: feed
-  status: ok
+  status: no_feed
   fail_streak: 8
 - name: 中城村
   top: https://www.vill.nakagusuku.okinawa.jp/
