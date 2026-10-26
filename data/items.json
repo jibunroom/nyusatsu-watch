@@ -8433,5 +8433,36 @@
    "relevant": true
   },
   "judged_at": "2026-10-26T09:15+09:00"
+ },
+ {
+  "id": "s1",
+  "source": "浦添市",
+  "title": "浦添市広告入り子育て支援情報誌無償提供に係る公募型プロポーザルの実施について",
+  "url": "https://www.city.urasoe.lg.jp/doc/2026102300105/",
+  "published": "2026-10-26",
+  "summary": "公告[PDF：163KB]\n\n１　事業概要\n（１）事業名　　「浦添市広告入り子育て支援情報誌」協働発行事業\n（２）事業内容　別紙１　浦添市広告入り子育て支援情報誌協働発行事業仕様書のとおりです。\n（３）事業期間　協定締結日から原則３年とします。ただし、年一回の改訂を行います。\n\n２　選定方法\n　応募資格要件を満たす応募者から、浦添市広告入り子育て支援情報誌無償提供者選定審査会の審査により、１事業者を選定します。\n　※応募資格要件は、別添「募集要項」をご確認ください。\n\n３　スケジュール\n（１）公募開始　　　　　　　　　　令和8年10月26日(月)\n（２）質問書の受付期限　　　　　　令和8年11月2日(月)\n（３）質問書に対する回答　　　　　令和8年11月6日(金)\n（４）企画提案書等の受付期限　　　令和8年11月13日(金)\n（５）選定結果の通知　　　　　　　令和8年11月下旬　予定\n（６）協定書の締結　　　　　　　　令和8年12月上旬　予定\n\n４　募集要項及び様式等\n\n募集要項[PDF：120KB]\n\n様式１[PDF：53.9KB]\n\n様式２pdf[PDF：123KB]\n\n様式...",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": 18,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "creative",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-11-13",
+   "deadline_known": true,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "不明",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "広報物制作領域に合致。無償提供型広告事業のため事業費支出なし。",
+   "id": "s1",
+   "relevant": true
+  },
+  "judged_at": "2026-10-26T20:00+09:00"
  }
 ]
