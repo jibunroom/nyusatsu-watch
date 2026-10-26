@@ -520,7 +520,8 @@
   "https://www.pref.okinawa.lg.jp/kyoiku/kosodate/1008160/1035271/1041401.html",
   "https://www.pref.okinawa.lg.jp/shigoto/nogyo/1010758/1040528/1041725.html",
   "https://www.pref.okinawa.lg.jp/kyoiku/seikatufukushi/1006788/1006792/1031258.html",
-  "https://www.pref.okinawa.lg.jp/machizukuri/jutakutochi/1012327/1041518.html"
+  "https://www.pref.okinawa.lg.jp/machizukuri/jutakutochi/1012327/1041518.html",
+  "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025067/1041714.html"
  ],
  "那覇市": [
   "https://www.city.naha.okinawa.jp/fukusi/shakaifukushi/1003447/1011985.html",
@@ -1713,7 +1714,8 @@
   "https://www.city.urasoe.lg.jp/doc/6458517f1f4f483a86182a93/",
   "https://www.city.urasoe.lg.jp/doc/2026102300082/",
   "https://www.city.urasoe.lg.jp/doc/2026072200085/",
-  "https://www.city.urasoe.lg.jp/doc/2024090400050/"
+  "https://www.city.urasoe.lg.jp/doc/2024090400050/",
+  "https://www.city.urasoe.lg.jp/doc/2026102300013/"
  ],
  "名護市": [
   "https://www.city.nago.okinawa.jp/articles/2026073100018/",
@@ -2241,7 +2243,10 @@
   "https://www.city.itoman.lg.jp/site/itobunsub/40361.html",
   "https://www.city.itoman.lg.jp/soshiki/10/1417.html",
   "https://www.city.itoman.lg.jp/soshiki/10/1420.html",
-  "https://www.city.itoman.lg.jp/soshiki/35/36093.html"
+  "https://www.city.itoman.lg.jp/soshiki/35/36093.html",
+  "https://www.city.itoman.lg.jp/soshiki/11/40472.html",
+  "https://www.city.itoman.lg.jp/soshiki/15/1104.html",
+  "https://www.city.itoman.lg.jp/soshiki/25/40367.html"
  ],
  "豊見城市": [
   "https://www.city.tomigusuku.lg.jp/soshiki/3/1017/gyomuannai/1/2/9851.html",
@@ -2586,7 +2591,8 @@
   "https://www.vill.kunigami.okinawa.jp/k_soumu/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e7%ac%ac%ef%bc%95%e5%9b%9e%e3%80%80%e5%9b%bd%e9%a0%ad%e6%9d%91%e8%ad%b0%e4%bc%9a%ef%bc%88%ef%bc%91%ef%bc%90%e6%9c%88%ef%bc%89%e8%87%a8%e6%99%82%e4%bc%9a%e3%81%ae/",
   "https://www.vill.kunigami.okinawa.jp/k_soumu/%e5%9b%bd%e9%a0%ad%e6%9d%91%e9%81%8e%e7%96%8e%e5%9c%b0%e5%9f%9f%e6%8c%81%e7%b6%9a%e7%9a%84%e7%99%ba%e5%b1%95%e8%a8%88%e7%94%bb%e3%81%ae%e4%b8%80%e9%83%a8%e5%a4%89%e6%9b%b4%e3%81%ab%e3%81%a4%e3%81%84/",
   "https://www.vill.kunigami.okinawa.jp/i_kyouiku/%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91%e5%9b%bd%e9%a0%ad%e6%9d%91%e4%b9%b3%e5%b9%bc%e5%85%90%e5%8f%8a%e3%81%b3%e5%85%90%e7%ab%a5%e7%94%9f%e5%be%92%e7%ad%89%e7%89%a9%e4%be%a1%e9%ab%98%e9%a8%b0%e9%87%8d/",
-  "https://www.vill.kunigami.okinawa.jp/k_keizai/%e3%80%90%e3%83%97%e3%83%ac%e3%83%9f%e3%82%a2%e3%83%a0%e5%95%86%e5%93%81%e5%88%b8%e3%80%91%e9%9b%bb%e5%ad%90%e5%95%86%e5%93%81%e5%88%b8%e3%81%ae%e7%b7%8a%e6%80%a5%e3%83%a1%e3%83%b3%e3%83%86%e3%83%8a/"
+  "https://www.vill.kunigami.okinawa.jp/k_keizai/%e3%80%90%e3%83%97%e3%83%ac%e3%83%9f%e3%82%a2%e3%83%a0%e5%95%86%e5%93%81%e5%88%b8%e3%80%91%e9%9b%bb%e5%ad%90%e5%95%86%e5%93%81%e5%88%b8%e3%81%ae%e7%b7%8a%e6%80%a5%e3%83%a1%e3%83%b3%e3%83%86%e3%83%8a/",
+  "https://www.vill.kunigami.okinawa.jp/koubo_boshu/%e3%80%9011-16%e3%80%9c%e3%80%91%e4%bb%a4%e5%92%8c%ef%bc%99%e5%b9%b4%e5%ba%a6%e3%81%8f%e3%81%ab%e3%81%8c%e3%81%bf%e5%85%90%e7%ab%a5%e3%82%af%e3%83%a9%e3%83%96%e3%83%bb%e4%b8%8a%e5%b3%b6%e5%ad%a6/"
  ],
  "大宜味村": [
   "https://www.vill.ogimi.okinawa.jp/shigoto_sangyo/nyusatsu_keiyaku/nyusatsu/1567.html",
@@ -2923,7 +2929,8 @@
   "https://www.town.kadena.okinawa.jp/info/n9116.html",
   "https://www.town.kadena.okinawa.jp/info/n9115.html",
   "https://www.town.kadena.okinawa.jp/life/kur9120.html",
-  "https://www.town.kadena.okinawa.jp/info/n9119.html"
+  "https://www.town.kadena.okinawa.jp/info/n9119.html",
+  "https://www.town.kadena.okinawa.jp/info/n9121.html"
  ],
  "北谷町": [
   "https://www.chatan.jp/kenko_fukushi/kenko/yobo_iryo/sumatodiet.html",
@@ -3106,7 +3113,10 @@
   "https://www.chatan.jp/seikatsuguide/zeikin/nouhusyosyouryaku.html",
   "https://www.chatan.jp/seikatsuguide/koen_doro/doro/douro220240927senyou.html",
   "https://www.chatan.jp/kosodate/library/kongetunogyoji/roudokukai.html",
-  "https://www.chatan.jp/kenko_fukushi/kenko/yobo_iryo/kenkoR4120264938769.html"
+  "https://www.chatan.jp/kenko_fukushi/kenko/yobo_iryo/kenkoR4120264938769.html",
+  "https://www.chatan.jp/haisai/event/kenko_hukushi/fitness.html",
+  "https://www.chatan.jp/kenko_fukushi/koureishafukushi/oshirase/sonaekouza.html",
+  "https://www.chatan.jp/kosodate/plaza/kanaihole/kouzaannai/reiwa8nendo/202611_okinawahistor.html"
  ],
  "北中城村": [
   "https://www.vill.kitanakagusuku.lg.jp/kakuka/kikaku/chiiki/chiiki/787.html",

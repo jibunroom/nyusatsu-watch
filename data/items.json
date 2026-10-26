@@ -8402,5 +8402,36 @@
    "relevant": true
   },
   "judged_at": "2026-10-23T19:01+09:00"
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "令和8年度沖縄こどもの貧困緊急対策事業「こどもの貧困対策支援員マニュアル作成」に係る企画提案募集",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025067/1041714.html",
+  "published": "2026-10-25",
+  "summary": "令和8年度沖縄こどもの貧困緊急対策事業「こどもの貧困対策支援員マニュアル作成」に係る企画提案募集",
+  "pdf_only": false,
+  "rank": "A",
+  "days_left": 16,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "creative",
+   "amount_jpy": 2800000,
+   "amount_known": true,
+   "deadline": "2026-11-11",
+   "deadline_known": true,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "県内",
+   "experience_required": true,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "広報物・マニュアル制作の得意分野に該当し、予定価格も1000万円以下のため。",
+   "id": "s1",
+   "relevant": true
+  },
+  "judged_at": "2026-10-26T09:15+09:00"
  }
 ]
