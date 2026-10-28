@@ -8554,5 +8554,36 @@
   "judge_failed": true,
   "verdict": {},
   "judged_at": "2026-10-27T21:31+09:00"
+ },
+ {
+  "id": "s1",
+  "source": "那覇市",
+  "title": "（仮称）国宝等収蔵・展示施設整備業務委託に係る制限付一般競争入札の実施",
+  "url": "https://www.city.naha.okinawa.jp/business/touroku/1003701/1010948/1012963.html",
+  "published": "2026-10-28",
+  "summary": "（仮称）国宝等収蔵・展示施設整備業務委託に係る制限付一般競争入札の実施",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 15,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-11-12",
+   "deadline_known": true,
+   "method": "一般競争",
+   "qualification_needed": true,
+   "region_limit": "県内",
+   "experience_required": true,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "展示施設整備に伴う工事・制作系業務であり得意分野対象外のため。",
+   "id": "s1",
+   "relevant": false
+  },
+  "judged_at": "2026-10-28T10:45+09:00"
  }
 ]
