@@ -8926,5 +8926,67 @@
    "relevant": false
   },
   "judged_at": "2026-11-02T09:36+09:00"
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "軽自動車の売買契約（宮古農林水産振興センター）に係る一般競争入札公告",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025082/1038049/1041836.html",
+  "published": "2026-11-02",
+  "summary": "軽自動車の売買契約（宮古農林水産振興センター）に係る一般競争入札公告",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 7,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-11-10",
+   "deadline_known": true,
+   "method": "一般競争",
+   "qualification_needed": true,
+   "region_limit": "県内",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "除外対象である物品購入（軽自動車売買）に該当するため。",
+   "id": "s1",
+   "relevant": false
+  },
+  "judged_at": "2026-11-03T01:59+09:00"
+ },
+ {
+  "id": "s2",
+  "source": "沖縄市",
+  "title": "R9.10年度沖縄市通所型サービス・活動C事業「沖縄市かふう教室」委託事業者募集について",
+  "url": "https://www.city.okinawa.okinawa.jp/k020-005/contents/p00003.html",
+  "published": "2026-11-01",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 21,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "office",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2026-11-24",
+   "deadline_known": true,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "市内",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "介護予防・健康福祉事業であり、得意分野（IT・広報等）に該当しないため。",
+   "id": "s2",
+   "relevant": false
+  },
+  "judged_at": "2026-11-03T01:59+09:00"
  }
 ]
