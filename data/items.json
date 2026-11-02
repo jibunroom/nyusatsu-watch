@@ -8895,5 +8895,36 @@
    "relevant": false
   },
   "judged_at": "2026-10-31T09:07+09:00"
+ },
+ {
+  "id": "s1",
+  "source": "沖縄市",
+  "title": "令和9.10年度沖縄市一般介護予防事業「高齢者パワーアップ教室」「高齢者元気教室」委託事業者公募について",
+  "url": "https://www.city.okinawa.okinawa.jp/k020-005/contents/p00015.html",
+  "published": "2026-11-01",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 22,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": 0,
+   "amount_known": false,
+   "deadline": "2026-11-24",
+   "deadline_known": true,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "不明",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "介護予防教室の実施業務であり得意分野（IT・広報・事務局）対象外のため。",
+   "id": "s1",
+   "relevant": false
+  },
+  "judged_at": "2026-11-02T09:36+09:00"
  }
 ]
