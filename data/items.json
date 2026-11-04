@@ -8988,5 +8988,36 @@
    "relevant": false
   },
   "judged_at": "2026-11-03T01:59+09:00"
+ },
+ {
+  "id": "s1",
+  "source": "本部町",
+  "title": "本部町における障がい者就労施設等からの物品等の優先調達",
+  "url": "https://www.town.motobu.okinawa.jp/doc/2026090800021/",
+  "published": "2026-11-04",
+  "summary": "概要\n\n平成２５年４月1日に「国等による障害者就労施設等からの物品等の調達に関する法律（障害者優先調達推進法）」が施行されました。この法律は、国等の公的機関における物品及び役務などの調達において、障がい者就労施設等からの優先的な調達を推進することにより、施設等で就労する障がいのある方の自立の促進を図ることを目的としています。\n\n障害者就労施設等からの役務の提供や物品等の調達について｜厚生労働省HP[HTML：66.2KB] \n\n調達方針\n\n本町における障がい者就労施設等からの物品等の調達実績を公表いたします。\n\n令和７年度本部町障害者就労施設等からの物品等調達実績[PDF：75.7KB]\n\n本部町における調達実績の推移[PDF：217KB]",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": null,
+   "deadline_known": false,
+   "method": "不明",
+   "qualification_needed": false,
+   "region_limit": "不明",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "障害者就労施設等からの優先調達方針の告知であり対象外案件。",
+   "id": "s1",
+   "relevant": false
+  },
+  "judged_at": "2026-11-04T09:56+09:00"
  }
 ]
