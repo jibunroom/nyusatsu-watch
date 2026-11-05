@@ -9112,5 +9112,67 @@
    "relevant": false
   },
   "judged_at": "2026-11-05T00:41+09:00"
+ },
+ {
+  "id": "s1",
+  "source": "沖縄県",
+  "title": "令和8年度　県有地売払いの一般競争入札（物件4）",
+  "url": "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1014107/1041732.html",
+  "published": "2026-11-05",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "excluded",
+  "days_left": 29,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": 111000000,
+   "amount_known": true,
+   "deadline": "2026-12-04",
+   "deadline_known": true,
+   "method": "一般競争",
+   "qualification_needed": true,
+   "region_limit": "なし",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "県有地売却の案件であり得意分野外。価格も1000万円超過。",
+   "id": "s1",
+   "relevant": false
+  },
+  "judged_at": "2026-11-05T10:50+09:00"
+ },
+ {
+  "id": "s2",
+  "source": "沖縄市",
+  "title": "令和9年・10年度物品購入等入札参加資格審査申請について",
+  "url": "https://www.city.okinawa.okinawa.jp/k005-001/sangyou/nyusatsukeiyaku/sankashikaku/p00011.html",
+  "published": "2026-11-04",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": null,
+   "deadline_known": false,
+   "method": "不明",
+   "qualification_needed": false,
+   "region_limit": "不明",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "入札参加資格審査の申請案内であり個別業務の受託案件ではない。",
+   "id": "s2",
+   "relevant": false
+  },
+  "judged_at": "2026-11-05T10:50+09:00"
  }
 ]

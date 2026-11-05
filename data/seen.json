@@ -565,7 +565,10 @@
   "https://www.pref.okinawa.lg.jp/iryokenko/iryo/1005280/1026431/1027654.html",
   "https://www.pref.okinawa.lg.jp/kurashikankyo/shoku/1004023/1027370/1027341.html",
   "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1025082/1038049/1041812.html",
-  "https://www.pref.okinawa.lg.jp/shigoto/ringyo/1010889/1041810.html"
+  "https://www.pref.okinawa.lg.jp/shigoto/ringyo/1010889/1041810.html",
+  "https://www.pref.okinawa.lg.jp/kyoiku/edu/1000010/1041857/1041858.html",
+  "https://www.pref.okinawa.lg.jp/kyoiku/edu/1000010/1041857/index.html",
+  "https://www.pref.okinawa.lg.jp/shigoto/nyusatsukeiyaku/1015342/1014107/1041732.html"
  ],
  "那覇市": [
   "https://www.city.naha.okinawa.jp/fukusi/shakaifukushi/1003447/1011985.html",
@@ -1100,7 +1103,8 @@
   "https://www.city.naha.okinawa.jp/business/touroku/1003844/1010980/1013243.html",
   "https://www.city.naha.okinawa.jp/admin/kaikaku/1008233/1004100/1013242.html",
   "https://www.city.naha.okinawa.jp/kurasitetuduki/sankaku-kyoudou/1002706/1004745/1004747/1004750/1013239.html",
-  "https://www.city.naha.okinawa.jp/business/sangyou/1003586/1012764.html"
+  "https://www.city.naha.okinawa.jp/business/sangyou/1003586/1012764.html",
+  "https://www.city.naha.okinawa.jp/business/touroku/1003701/1010948/1013245.html"
  ],
  "宜野湾市": [
   "https://www.city.ginowan.lg.jp/soshiki/kodomo/3/sukoyakaoyako/6/20597.html",
@@ -1472,7 +1476,13 @@
   "https://www.city.okinawa.okinawa.jp/k018/contents/p00058.html",
   "https://www.city.okinawa.okinawa.jp/k058-003/anshin/bousai/saigaijouhou/p00001.html",
   "https://www.city.okinawa.okinawa.jp/k010-004/contents/p00030.html",
-  "https://www.city.okinawa.okinawa.jp/k017/contents/p00107.html"
+  "https://www.city.okinawa.okinawa.jp/k017/contents/p00107.html",
+  "https://www.city.okinawa.okinawa.jp/k017/contents/p00048-1.html",
+  "https://www.city.okinawa.okinawa.jp/k005-001/sangyou/nyusatsukeiyaku/sankashikaku/p00009.html",
+  "https://www.city.okinawa.okinawa.jp/k005-001/sangyou/nyusatsukeiyaku/sankashikaku/p00010.html",
+  "https://www.city.okinawa.okinawa.jp/k005-001/sangyou/nyusatsukeiyaku/sankashikaku/p00011.html",
+  "https://www.city.okinawa.okinawa.jp/k005-001/sangyou/nyusatsukeiyaku/sankashikaku/p00012.html",
+  "https://www.city.okinawa.okinawa.jp/k068-001/kosodate/seishounenikusei/1022/1055/index.html"
  ],
  "浦添市": [
   "https://www.city.urasoe.lg.jp/doc/2025071600025/",
@@ -1857,7 +1867,8 @@
   "https://www.city.urasoe.lg.jp/doc/2026090100039/",
   "https://www.city.urasoe.lg.jp/doc/2025090200084/",
   "https://www.city.urasoe.lg.jp/doc/65016b55e1ffac0826a4498e/",
-  "https://www.city.urasoe.lg.jp/bbs/2026110400040/"
+  "https://www.city.urasoe.lg.jp/bbs/2026110400040/",
+  "https://www.city.urasoe.lg.jp/doc/2026102700066/"
  ],
  "名護市": [
   "https://www.city.nago.okinawa.jp/articles/2026073100018/",
@@ -2454,7 +2465,9 @@
   "https://www.city.itoman.lg.jp/site/shouhinken/40723.html",
   "https://www.city.itoman.lg.jp/soshiki/19/40275.html",
   "https://www.city.itoman.lg.jp/soshiki/49/19834.html",
-  "https://www.city.itoman.lg.jp/soshiki/11/10023.html"
+  "https://www.city.itoman.lg.jp/soshiki/11/10023.html",
+  "https://www.city.itoman.lg.jp/site/shouhinken/40744.html",
+  "https://www.city.itoman.lg.jp/soshiki/11/1652.html"
  ],
  "豊見城市": [
   "https://www.city.tomigusuku.lg.jp/soshiki/3/1017/gyomuannai/1/2/9851.html",
@@ -2833,7 +2846,8 @@
   "https://www.vill.kunigami.okinawa.jp/i_kyouiku/%e7%ac%ac%ef%bc%91%ef%bc%91%e5%9b%9e%e5%9b%bd%e9%a0%ad%e6%9d%91%e9%95%b7%e6%9d%af%e4%b8%ad%e5%ad%a6%e7%94%9f%e7%a1%ac%e5%bc%8f%e9%87%8e%e7%90%83%e5%a4%a7%e4%bc%9a%e3%81%ae%e7%b5%84%e3%81%bf%e5%90%88/",
   "https://www.vill.kunigami.okinawa.jp/sekaisizenisan/%ef%bd%9e%e9%87%8c%e8%a6%aa%e5%8b%9f%e9%9b%86%e4%b8%ad%ef%bd%9e%ef%bc%8826080501%ef%bc%89/",
   "https://www.vill.kunigami.okinawa.jp/i_kyouiku/%e3%80%9011-16%e3%80%9c%e5%8b%9f%e9%9b%86%e3%80%91%e4%bb%a4%e5%92%8c%ef%bc%99%e5%b9%b4%e5%ba%a6%e3%81%8f%e3%81%ab%e3%81%8c%e3%81%bf%e3%81%93%e3%81%a9%e3%82%82%e5%9c%92%e5%8f%8a%e3%81%b3%e6%a5%9a/",
-  "https://www.vill.kunigami.okinawa.jp/ecospo/%e3%80%8e%e5%8c%97%e6%b5%b7%e9%81%93%e6%97%a5%e6%9c%ac%e3%83%8f%e3%83%a0%e3%83%95%e3%82%a1%e3%82%a4%e3%82%bf%e3%83%bc%e3%82%ba%e3%80%8f2026-%e5%9b%bd%e9%a0%ad%e7%a7%8b%e5%ad%a3%e3%82%ad%e3%83%a3/"
+  "https://www.vill.kunigami.okinawa.jp/ecospo/%e3%80%8e%e5%8c%97%e6%b5%b7%e9%81%93%e6%97%a5%e6%9c%ac%e3%83%8f%e3%83%a0%e3%83%95%e3%82%a1%e3%82%a4%e3%82%bf%e3%83%bc%e3%82%ba%e3%80%8f2026-%e5%9b%bd%e9%a0%ad%e7%a7%8b%e5%ad%a3%e3%82%ad%e3%83%a3/",
+  "https://www.vill.kunigami.okinawa.jp/k_keizai/%e3%80%90%e5%9b%bd%e9%a0%ad%e6%9d%91%e5%85%ac%e5%85%b1%ef%be%97%ef%bd%b2%ef%be%84%ef%be%9e%ef%bd%bc%ef%bd%aa%ef%bd%b1%e3%80%91%e3%83%84%e3%83%bc%e3%83%ab%e3%83%bb%e3%83%89%e3%83%bb%e3%81%8a%e3%81%8d/"
  ],
  "大宜味村": [
   "https://www.vill.ogimi.okinawa.jp/shigoto_sangyo/nyusatsu_keiyaku/nyusatsu/1567.html",
@@ -3399,7 +3413,8 @@
   "https://www.chatan.jp/seikatsuguide/shushoku_rodo/koyounushimukeannai/roudouhoken.html",
   "https://www.chatan.jp/seikatsuguide/shushoku_rodo/oshirase/sinpoziumu.html",
   "https://www.chatan.jp/kosodate/plaza/kanaihole/kouzaannai/reiwa8nendo/202612_miso.html",
-  "https://www.chatan.jp/choseijoho/johoka/llogo123.html"
+  "https://www.chatan.jp/choseijoho/johoka/llogo123.html",
+  "https://www.chatan.jp/kosodate/kyouiku/sports/hyokeihomon/shaktai2.html"
  ],
  "北中城村": [
   "https://www.vill.kitanakagusuku.lg.jp/kakuka/kikaku/chiiki/chiiki/787.html",
