@@ -9174,5 +9174,36 @@
    "relevant": false
   },
   "judged_at": "2026-11-05T10:50+09:00"
+ },
+ {
+  "id": "s1",
+  "source": "浦添市",
+  "title": "【結果公表】令和8年度 浦添市総合交通戦略推進業務委託プロポーザル選定について",
+  "url": "https://www.city.urasoe.lg.jp/doc/2026110200046/",
+  "published": "2026-11-05",
+  "summary": "令和８年９月29日付で公告した「公募型プロポーザル方式に係る手続き開始の公告（浦添市公告第244号）」\n\nについて、受託者選定委員会による選定した結果を次のとおり公表します。\n\n&nbsp;\n\n１．委託名\n\n令和８年度 浦添市総合交通戦略推進業務委託\n\n２．選定委員会\n\n（１）開催日時：令和８年10月29日（木）\n\n（２）開催場所：浦添市役所　６０１会議室\n\n３．審査対象業者\n\n・一般社団法人　沖縄しまたて協会\n\n４．審査結果\n\n&nbsp;提案者①：７８．８点/１００点（選定）\n\n５．契約候補者\n\n・一般社団法人　沖縄しまたて協会\n\n&nbsp;\n\n&nbsp;\n\n（問合せ先）\n\n浦添市役所 都市建設部 都市計画課（担当 宮城・森田）\n\n　TEL：098-876-1716（直通）\n　E-mail：tosikei@city.urasoe.lg.jp\n\n&nbsp;",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": null,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": null,
+   "deadline_known": false,
+   "method": "プロポーザル",
+   "qualification_needed": true,
+   "region_limit": "不明",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "得意分野外の都市交通計画業務であり、かつ選定結果の公表のため。",
+   "id": "s1",
+   "relevant": false
+  },
+  "judged_at": "2026-11-05T18:22+09:00"
  }
 ]
