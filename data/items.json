@@ -9453,5 +9453,36 @@
    "relevant": false
   },
   "judged_at": "2026-11-10T01:43+09:00"
+ },
+ {
+  "id": "s1",
+  "source": "うるま市",
+  "title": "農水産業振興戦略拠点施設機能強化整備事業（うるマルシェレジ導入）に係る制限付き一般競争入札の公募について",
+  "url": "https://www.city.uruma.lg.jp/1008003000/contents/p000047.html",
+  "published": "2026-11-09",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 10,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "it",
+   "amount_jpy": 0,
+   "amount_known": false,
+   "deadline": "2026-11-20",
+   "deadline_known": true,
+   "method": "一般競争",
+   "qualification_needed": true,
+   "region_limit": "県内",
+   "experience_required": true,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "POSレジ導入（機器調達等）案件であり、自社得意分野外のため。",
+   "id": "s1",
+   "relevant": false
+  },
+  "judged_at": "2026-11-10T09:27+09:00"
  }
 ]
