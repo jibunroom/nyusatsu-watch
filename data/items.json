@@ -9515,5 +9515,36 @@
    "relevant": false
   },
   "judged_at": "2026-11-11T00:48+09:00"
+ },
+ {
+  "id": "s1",
+  "source": "西原町",
+  "title": "令和9・10年度入札参加資格審査申請の受付について（物品・その他）",
+  "url": "https://www.town.nishihara.okinawa.jp/soshiki/2/16697.html",
+  "published": "2026-11-11",
+  "summary": "",
+  "pdf_only": false,
+  "rank": "B",
+  "days_left": 85,
+  "warn_staff": false,
+  "judge_failed": false,
+  "verdict": {
+   "category": "other",
+   "amount_jpy": null,
+   "amount_known": false,
+   "deadline": "2027-02-05",
+   "deadline_known": true,
+   "method": "不明",
+   "qualification_needed": false,
+   "region_limit": "不明",
+   "experience_required": false,
+   "security_cert_required": false,
+   "staff_required": 0,
+   "automation_potential": "low",
+   "reason": "業務委託等ではなく入札参加資格申請の案内であるため対象外",
+   "id": "s1",
+   "relevant": false
+  },
+  "judged_at": "2026-11-12T01:27+09:00"
  }
 ]
