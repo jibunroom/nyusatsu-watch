@@ -98,7 +98,7 @@ sources:
   feed: https://www.nakijin.jp/cgi-bin/feed.php?siteNew=1
   method: feed
   status: ok
-  fail_streak: 1
+  fail_streak: 0
 - name: 本部町
   top: https://www.town.motobu.okinawa.jp/
   feed: https://www.town.motobu.okinawa.jp/category/news/index.rss
